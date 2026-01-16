@@ -64,7 +64,7 @@ Na dole ekranu znajduje się panel z przyciskami, który pozwala aktywnie zarzą
 #### **Zarządzanie Zasobami**
 
 *   **Dodaj PD i Złoto**
-    Umożliwia ręczne dodawanie Punktów Doświadczenia i złota zdobytych podczas sesji. To kluczowa funkcja do śledzenia postępów.
+    Umożliwia ręczne dodawanie Punktów Doświadczenia i złota zdobytych podczas sesji.
     ![Okno Dodawania PD i Złota](photos/addXpAndGold.png)
 
 *   **Kup Ekwipunek**
