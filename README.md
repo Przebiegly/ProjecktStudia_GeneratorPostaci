@@ -1,5 +1,3 @@
-***
-
 # Dokumentacja Projektu: Generator Postaci Warhammer
 
 ## 1. Instalacja i Uruchomienie
