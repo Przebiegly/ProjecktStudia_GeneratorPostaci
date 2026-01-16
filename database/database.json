@@ -1,0 +1,3340 @@
+{
+  "items": [
+    { "id": 1, "name": "Amunicja", "price": null, "quantity": 1 },
+    { "id": 2, "name": "Amunicja do procy", "price": 1, "quantity": 5 },
+    { "id": 3, "name": "Arkan", "price": 20, "quantity": 1 },
+    { "id": 4, "name": "Bełt", "price": 0.4, "quantity": 5 },
+    { "id": 5, "name": "Bicz", "price": 40, "quantity": 1 },
+    { "id": 6, "name": "Biżuteria", "price": null, "quantity": 1 },
+    { "id": 7, "name": "Bolas", "price": 7, "quantity": 1 },
+    { "id": 8, "name": "Broń dwuręczna", "price": 400, "quantity": 1 },
+    { "id": 9, "name": "Broń improwizowana", "price": 0, "quantity": 1 },
+    { "id": 10, "name": "Broń jednoręczna", "price": 200, "quantity": 1 },
+    { "id": 11, "name": "Bukłak z wodą", "price": 15, "quantity": 1 },
+    { "id": 12, "name": "Butelka", "price": 5, "quantity": 1 },
+    { "id": 13, "name": "Czepiec kolczy", "price": 400, "quantity": 1 },
+    { "id": 14, "name": "Dobre ubranie", "price": 60, "quantity": 1 },
+    { "id": 15, "name": "Drąg", "price": 3, "quantity": 1 },
+    { "id": 16, "name": "Dwuręczny kilof", "price": 400, "quantity": 1 },
+    { "id": 17, "name": "Dwuręczny topór", "price": 400, "quantity": 1 },
+    { "id": 18, "name": "Długi łuk", "price": 300, "quantity": 1 },
+    { "id": 19, "name": "Elfi łuk", "price": 1400, "quantity": 1 },
+    { "id": 20, "name": "Garłacz", "price": 1400, "quantity": 1 },
+    { "id": 21, "name": "Gorzałka", "price": 20, "quantity": 1 },
+    { "id": 22, "name": "Gorzałka dobrej jakości", "price": 40, "quantity": 1 },
+    { "id": 23, "name": "Gorzałka kiepskiej jakości", "price": 10, "quantity": 1 },
+    { "id": 24, "name": "Gwiazdka do rzucania", "price": 3, "quantity": 5 },
+    { "id": 25, "name": "Halabarda", "price": 300, "quantity": 1 },
+    { "id": 26, "name": "Hełm płytowy", "price": 600, "quantity": 1 },
+    { "id": 27, "name": "Hełm skórzany", "price": 60, "quantity": 1 },
+    { "id": 28, "name": "Hubka", "price": 5, "quantity": 1 },
+    { "id": 29, "name": "Ilustrowana księga", "price": 5000, "quantity": 1 },
+    { "id": 30, "name": "Instrument muzyczny", "price": null, "quantity": 1 },
+    { "id": 31, "name": "Kaftan kolczy", "price": 1200, "quantity": 1 },
+    { "id": 32, "name": "Kaftan skórzany", "price": 120, "quantity": 1 },
+    { "id": 33, "name": "Kajdany", "price": 180, "quantity": 1 },
+    { "id": 34, "name": "Kapelusz z szerokim rondem", "price": 20, "quantity": 1 },
+    { "id": 35, "name": "Kapelusz zwykły", "price": 10, "quantity": 1 },
+    { "id": 36, "name": "Kaptur", "price": 10, "quantity": 1 },
+    { "id": 37, "name": "Kastet", "price": 20, "quantity": 1 },
+    { "id": 38, "name": "Kiepskie odzienie", "price": 10, "quantity": 1 },
+    { "id": 39, "name": "Kij", "price": 3, "quantity": 1 },
+    { "id": 40, "name": "Kilof", "price": 50, "quantity": 1 },
+    { "id": 41, "name": "Kolczuga", "price": 1500, "quantity": 1 },
+    { "id": 42, "name": "Kolczuga z rękawami", "price": 2600, "quantity": 1 },
+    { "id": 43, "name": "Koń", "price": null, "quantity": 1 },
+    { "id": 44, "name": "Koń bojowy", "price": null, "quantity": 1 },
+    { "id": 45, "name": "Koń pociągowy", "price": null, "quantity": 1 },
+    { "id": 46, "name": "Kopia", "price": 300, "quantity": 1 },
+    { "id": 47, "name": "Korbacz", "price": 300, "quantity": 1 },
+    { "id": 48, "name": "Koszula kolcza", "price": 1900, "quantity": 1 },
+    { "id": 49, "name": "Kostium", "price": 100, "quantity": 1 },
+    { "id": 50, "name": "Kostium cyrkowca", "price": 100, "quantity": 1 },
+    { "id": 51, "name": "Kotwiczka", "price": 100, "quantity": 1 },
+    { "id": 52, "name": "Krzesiwo", "price": 5, "quantity": 1 },
+    { "id": 53, "name": "Krótki łuk", "price": 140, "quantity": 1 },
+    { "id": 54, "name": "Księga wiedzy tajemnej", "price": 5000, "quantity": 1 },
+    { "id": 55, "name": "Kuc", "price": null, "quantity": 1 },
+    { "id": 56, "name": "Kula", "price": 0.3, "quantity": 5 },
+    { "id": 57, "name": "Kula do broni palnej", "price": 0.3, "quantity": 5 },
+    { "id": 58, "name": "Kurta skórzana", "price": 240, "quantity": 1 },
+    { "id": 59, "name": "Kusza", "price": 500, "quantity": 1 },
+    { "id": 60, "name": "Kusza pistoletowa", "price": 700, "quantity": 1 },
+    { "id": 61, "name": "Kusza samopowtarzalna", "price": 2000, "quantity": 1 },
+    { "id": 62, "name": "Lanca", "price": 400, "quantity": 1 },
+    { "id": 63, "name": "Latarnia", "price": 120, "quantity": 1 },
+    { "id": 64, "name": "Latarnia na drągu", "price": 123, "quantity": 1 },
+    { "id": 65, "name": "Latarnia sztormowa", "price": 240, "quantity": 1 },
+    { "id": 66, "name": "Lewak", "price": 40, "quantity": 1 },
+    { "id": 67, "name": "Liberia", "price": 300, "quantity": 1 },
+    { "id": 68, "name": "Liczydełko", "price": 120, "quantity": 1 },
+    { "id": 69, "name": "Lina", "price": 20, "quantity": 1 },
+    { "id": 70, "name": "Manierka", "price": 15, "quantity": 1 },
+    { "id": 71, "name": "Martwy szczur", "price": 0, "quantity": 1 },
+    { "id": 72, "name": "Maska", "price": 10, "quantity": 1 },
+    { "id": 73, "name": "Mieszek", "price": 5, "quantity": 1 },
+    { "id": 74, "name": "Mikstura leczenia", "price": null, "quantity": 1 },
+    { "id": 75, "name": "Mikstura lecznicza", "price": null, "quantity": 1 },
+    { "id": 76, "name": "Młot do rzucania", "price": 100, "quantity": 1 },
+    { "id": 77, "name": "Morgensztern", "price": 300, "quantity": 1 },
+    { "id": 78, "name": "Mundur", "price": 300, "quantity": 1 },
+    { "id": 79, "name": "Muszkiet hochlandzki", "price": 9000, "quantity": 1 },
+    { "id": 80, "name": "Namiot", "price": 120, "quantity": 1 },
+    { "id": 81, "name": "Napierśnik płytowy", "price": 1400, "quantity": 1 },
+    { "id": 82, "name": "Naramienniki płytowe", "price": 1400, "quantity": 1 },
+    { "id": 83, "name": "Narzędzia cyrulika", "price": 1200, "quantity": 1 },
+    { "id": 84, "name": "Narzędzia kuglarza", "price": 1200, "quantity": 1 },
+    { "id": 85, "name": "Narzędzia rzemieślnika", "price": 1200, "quantity": 1 },
+    { "id": 86, "name": "Nogawice kolcze", "price": 400, "quantity": 1 },
+    { "id": 87, "name": "Nogawice płytowe", "price": 1200, "quantity": 1 },
+    { "id": 88, "name": "Nogawice skórzane", "price": 200, "quantity": 1 },
+    { "id": 89, "name": "Nóż", "price": 20, "quantity": 1 },
+    { "id": 90, "name": "Nóż do rzucania", "price": 3, "quantity": 5 },
+    { "id": 91, "name": "Odtrutki", "price": null, "quantity": 1 },
+    { "id": 92, "name": "Olej do latarni", "price": 10, "quantity": 1 },
+    { "id": 93, "name": "Oszczep", "price": 200, "quantity": 1 },
+    { "id": 94, "name": "Pałka", "price": 10, "quantity": 1 },
+    { "id": 95, "name": "Peleryna", "price": 100, "quantity": 1 },
+    { "id": 96, "name": "Perfumy", "price": null, "quantity": 1 },
+    { "id": 97, "name": "Pies", "price": 100, "quantity": 1 },
+    { "id": 98, "name": "Pistolet", "price": 4000, "quantity": 1 },
+    { "id": 99, "name": "Pistolet wielostrzałowy", "price": 8000, "quantity": 1 },
+    { "id": 100, "name": "Plecak", "price": 40, "quantity": 1 },
+    { "id": 101, "name": "Proca", "price": 80, "quantity": 1 },
+    { "id": 102, "name": "Proca drzewcowa", "price": 120, "quantity": 1 },
+    { "id": 103, "name": "Proch", "price": 1, "quantity": 1 },
+    { "id": 104, "name": "Proch strzelniczy", "price": 1, "quantity": 1 },
+    { "id": 105, "name": "Prowiant", "price": null, "quantity": 1 },
+    { "id": 106, "name": "Przybory do pisania", "price": 120, "quantity": 1 },
+    { "id": 107, "name": "Puklerz", "price": 80, "quantity": 1 },
+    { "id": 108, "name": "Pułapka na szczury", "price": 5, "quantity": 1 },
+    { "id": 109, "name": "Płaszcz", "price": 200, "quantity": 1 },
+    { "id": 110, "name": "Płaszcz z kapturem", "price": 210, "quantity": 1 },
+    { "id": 111, "name": "Rapier", "price": 360, "quantity": 1 },
+    { "id": 112, "name": "Róg woźnicy", "price": null, "quantity": 1 },
+    { "id": 113, "name": "Rusznica", "price": 6000, "quantity": 1 },
+    { "id": 114, "name": "Rusznica wielostrzałowa", "price": 12000, "quantity": 1 },
+    { "id": 115, "name": "Rękawica", "price": 20, "quantity": 1 },
+    { "id": 116, "name": "Sakiewka", "price": 5, "quantity": 1 },
+    { "id": 117, "name": "Sieć", "price": 60, "quantity": 1 },
+    { "id": 118, "name": "Siodło", "price": null, "quantity": 1 },
+    { "id": 119, "name": "Skrzynia", "price": 40, "quantity": 1 },
+    { "id": 120, "name": "Skórzany bukłak", "price": 15, "quantity": 1 },
+    { "id": 121, "name": "Skórznia", "price": 500, "quantity": 1 },
+    { "id": 122, "name": "Spirytus", "price": 20, "quantity": 1 },
+    { "id": 123, "name": "Strzały", "price": 1, "quantity": 10 },
+    { "id": 124, "name": "Strój arystokraty", "price": 2000, "quantity": 1 },
+    { "id": 125, "name": "Strój szlachecki", "price": 1000, "quantity": 1 },
+    { "id": 126, "name": "Strój szlachecki z herbem rodu", "price": 1000, "quantity": 1 },
+    { "id": 127, "name": "Symbol boga", "price": null, "quantity": 1 },
+    { "id": 128, "name": "Szata", "price": 300, "quantity": 1 },
+    { "id": 129, "name": "Szaty kapłańskie", "price": 300, "quantity": 1 },
+    { "id": 130, "name": "Szpada", "price": 360, "quantity": 1 },
+    { "id": 131, "name": "Sztylet", "price": 20, "quantity": 1 },
+    { "id": 132, "name": "Szykowne ubranie", "price": 200, "quantity": 1 },
+    { "id": 133, "name": "Talia kart", "price": 10, "quantity": 1 },
+    { "id": 134, "name": "Talisman szczęścia", "price": null, "quantity": 1 },
+    { "id": 135, "name": "Tarcza", "price": 200, "quantity": 1 },
+    { "id": 136, "name": "Topór", "price": 200, "quantity": 1 },
+    { "id": 137, "name": "Topór do rzucania", "price": 100, "quantity": 1 },
+    { "id": 138, "name": "Tuba na mapy", "price": 30, "quantity": 1 },
+    { "id": 139, "name": "Ubranie dobrej jakości", "price": 60, "quantity": 1 },
+    { "id": 140, "name": "Ubranie najlepszej jakości", "price": 200, "quantity": 1 },
+    { "id": 141, "name": "Ulotka", "price": 0, "quantity": 1 },
+    { "id": 142, "name": "Uniform", "price": 300, "quantity": 1 },
+    { "id": 143, "name": "Uprząż", "price": null, "quantity": 1 },
+    { "id": 144, "name": "Wino", "price": 20, "quantity": 1 },
+    { "id": 145, "name": "Wnyki na zwierzęta", "price": 10, "quantity": 1 },
+    { "id": 146, "name": "Worek", "price": 5, "quantity": 1 },
+    { "id": 147, "name": "Wosk do pieczęci", "price": 10, "quantity": 1 },
+    { "id": 148, "name": "Wózek", "price": 240, "quantity": 1 },
+    { "id": 149, "name": "Wytrychy", "price": 240, "quantity": 1 },
+    { "id": 150, "name": "Włócznia", "price": 200, "quantity": 1 },
+    { "id": 151, "name": "Włócznia strzelecka", "price": 500, "quantity": 1 },
+    { "id": 152, "name": "Zapałka", "price": 1, "quantity": 1 },
+    { "id": 153, "name": "Zbroja kolcza", "price": 3400, "quantity": 1 },
+    { "id": 154, "name": "Zbroja płytowa", "price": 8000, "quantity": 1 },
+    { "id": 155, "name": "Zestaw kości do gry", "price": 10, "quantity": 1 },
+    { "id": 156, "name": "Zwykłe ubranie", "price": 20, "quantity": 1 },
+    { "id": 157, "name": "Złota korona", "price": 240, "quantity": 1 },
+    { "id": 158, "name": "Łachmany", "price": 1, "quantity": 1 },
+    { "id": 159, "name": "Łamacz mieczy", "price": 100, "quantity": 1 },
+    { "id": 160, "name": "Łom", "price": 50, "quantity": 1 },
+    { "id": 161, "name": "Łopata", "price": 40, "quantity": 1 },
+    { "id": 162, "name": "Łódź wiosłowa", "price": 2400, "quantity": 1 },
+    { "id": 163, "name": "Łuk", "price": 200, "quantity": 1 },
+    { "id": 164, "name": "Świeca woskowa", "price": 5, "quantity": 1 },
+    { "id": 165, "name": "Relikwia", "price": null, "quantity": 1 },
+    { "id": 166, "name": "Magiczny przedmiot", "price": null, "quantity": 1 },
+    { "id": 167, "name": "Narzędzia inżyniera", "price": null, "quantity": 1 },
+    { "id": 168, "name": "Długi gwóźdź", "price": null, "quantity": 1 },
+    { "id": 169, "name": "Luneta", "price": null, "quantity": 1 },
+    { "id": 170, "name": "Żaglowiec", "price": null, "quantity": 1 },
+    { "id": 171, "name": "Modlitewnik", "price": null, "quantity": 1 },
+    { "id": 172, "name": "Karczma", "price": null, "quantity": 1 },
+    { "id": 173, "name": "Grupa banitów", "price": null, "quantity": 1 },
+    { "id": 174, "name": "Organizacja przestępcza", "price": null, "quantity": 1 },
+    { "id": 175, "name": "Woda święcona", "price": null, "quantity": 1 },
+    { "id": 176, "name": "Kołek", "price": null, "quantity": 1 },
+    { "id": 177, "name": "Narzędzia alchemiczne", "price": null, "quantity": 1 },
+    { "id": 178, "name": "Gildia kupiecka", "price": null, "quantity": 1 },
+    { "id": 179, "name": "Gildia złodziei", "price": null, "quantity": 1 },
+    { "id": 180, "name": "Oddział żołnierzy", "price": null, "quantity": 1 },
+    { "id": 181, "name": "Trucizna", "price": null, "quantity": 1 },
+    { "id": 182, "name": "Podrobione dokumenty", "price": null, "quantity": 1 },
+    { "id": 183, "name": "Różnokolorowa woda", "price": null, "quantity": 1 },
+    { "id": 184, "name": "Różnokolorowy proszek", "price": null, "quantity": 1 },
+    { "id": 185, "name": "Zestaw do charakteryzacji", "price": null, "quantity": 1 },
+    { "id": 186, "name": "Gołąb pocztowy", "price": null, "quantity": 1 },
+    { "id": 187, "name": "Ulotki i odezwy polityczne", "price": null, "quantity": 1 },
+    { "id": 188, "name": "Narzędzia grawera", "price": null, "quantity": 1 },
+    { "id": 189, "name": "Lekki koń bojowy", "price": null, "quantity": 1 }
+  ],
+  "skills": [
+    { "id": 1, "name": "Brzuchomówstwo" },
+    { "id": 2, "name": "Charakteryzacja" },
+    { "id": 3, "name": "Czytanie i pisanie" },
+    { "id": 4, "name": "Dowodzenie" },
+    { "id": 5, "name": "Gadanina" },
+    { "id": 6, "name": "Hazard" },
+    { "id": 7, "name": "Hipnoza" },
+    { "id": 8, "name": "Jeździectwo" },
+    { "id": 9, "name": "Język tajemny (magiczny)" },
+    { "id": 10, "name": "Kartografia" },
+    { "id": 11, "name": "Kowalstwo" },
+    { "id": 12, "name": "Krawiectwo" },
+    { "id": 13, "name": "Kuglarstwo (aktorstwo)" },
+    { "id": 14, "name": "Kuglarstwo (gawędziarstwo)" },
+    { "id": 15, "name": "Kuglarstwo (muzykalność)" },
+    { "id": 16, "name": "Kuglarstwo (śpiew)" },
+    { "id": 17, "name": "Kuglarstwo (taniec)" },
+    { "id": 18, "name": "Leczenie" },
+    { "id": 19, "name": "Mocna głowa" },
+    { "id": 20, "name": "Nauka (anatomia)" },
+    { "id": 21, "name": "Nauka (astronomia)" },
+    { "id": 22, "name": "Nauka (dowolna)" },
+    { "id": 23, "name": "Nauka (genealogia)" },
+    { "id": 24, "name": "Nauka (genealogia/heraldyka)" },
+    { "id": 25, "name": "Nauka (heraldyka)" },
+    { "id": 26, "name": "Nauka (historia)" },
+    { "id": 27, "name": "Nauka (magia)" },
+    { "id": 28, "name": "Nauka (prawo)" },
+    { "id": 29, "name": "Nauka (teologia)" },
+    { "id": 30, "name": "Nawigacja" },
+    { "id": 31, "name": "Opieka nad zwierzętami" },
+    { "id": 32, "name": "Oswajanie" },
+    { "id": 33, "name": "Otwieranie zamków" },
+    { "id": 34, "name": "Płatnerstwo" },
+    { "id": 35, "name": "Plotkowanie" },
+    { "id": 36, "name": "Pływanie" },
+    { "id": 37, "name": "Powożenie" },
+    { "id": 38, "name": "Przekonywanie" },
+    { "id": 39, "name": "Przeszukiwanie" },
+    { "id": 40, "name": "Rusznikarstwo" },
+    { "id": 41, "name": "Rzemiosło (aptekarstwo)" },
+    { "id": 42, "name": "Rzemiosło (dowolne)" },
+    { "id": 43, "name": "Rzemiosło (gotowanie)" },
+    { "id": 44, "name": "Rzemiosło (górnictwo)" },
+    { "id": 45, "name": "Rzemiosło (kaligrafia)" },
+    { "id": 46, "name": "Rzemiosło (kamieniarstwo)" },
+    { "id": 47, "name": "Rzemiosło (kowalstwo)" },
+    { "id": 48, "name": "Rzemiosło (uprawa ziemi)" },
+    { "id": 49, "name": "Rzemiosło (wyrób łuków)" },
+    { "id": 50, "name": "Sekretne znaki (łowców)" },
+    { "id": 51, "name": "Sekretne znaki (zwiadowców)" },
+    { "id": 52, "name": "Sekretne znaki (złodziei)" },
+    { "id": 53, "name": "Sekretny język (bitewny)" },
+    { "id": 54, "name": "Sekretny język (gildii)" },
+    { "id": 55, "name": "Sekretny język (łowców)" },
+    { "id": 56, "name": "Sekretny język (złodziejski)" },
+    { "id": 57, "name": "Skradanie się" },
+    { "id": 58, "name": "Splatanie magii" },
+    { "id": 59, "name": "Spostrzegawczość" },
+    { "id": 60, "name": "Sztuka przetrwania" },
+    { "id": 61, "name": "Śledzenie" },
+    { "id": 62, "name": "Targowanie" },
+    { "id": 63, "name": "Tresura" },
+    { "id": 64, "name": "Tropicielstwo" },
+    { "id": 65, "name": "Ukrywanie się" },
+    { "id": 66, "name": "Unik" },
+    { "id": 67, "name": "Wiedza (Bretonia)" },
+    { "id": 68, "name": "Wiedza (Estalia)" },
+    { "id": 69, "name": "Wiedza (Imperium)" },
+    { "id": 70, "name": "Wiedza (Jałowa Kraina)" },
+    { "id": 71, "name": "Wiedza (Kislev)" },
+    { "id": 72, "name": "Wiedza (Norska)" },
+    { "id": 73, "name": "Wiedza (Tilea)" },
+    { "id": 74, "name": "Wiedza elfy" },
+    { "id": 75, "name": "Wiedza Imperium" },
+    { "id": 76, "name": "Wiedza krasnoludy" },
+    { "id": 77, "name": "Wiedza niziołki" },
+    { "id": 78, "name": "Wioślarstwo" },
+    { "id": 79, "name": "Wspinaczka" },
+    { "id": 80, "name": "Wycena" },
+    { "id": 81, "name": "Wykrywanie magii" },
+    { "id": 82, "name": "Zastawianie pułapek" },
+    { "id": 83, "name": "Zastraszanie" },
+    { "id": 84, "name": "Zielarstwo" },
+    { "id": 85, "name": "Zwinne palce" },
+    { "id": 86, "name": "Znajomość języka (bretoński)" },
+    { "id": 87, "name": "Znajomość języka (estalijski)" },
+    { "id": 88, "name": "Znajomość języka (kislevski)" },
+    { "id": 89, "name": "Znajomość języka (klasyczny)" },
+    { "id": 90, "name": "Znajomość języka (norski)" },
+    { "id": 91, "name": "Znajomość języka (staroświatowy)" },
+    { "id": 92, "name": "Znajomość języka (tileański)" },
+    { "id": 93, "name": "Znajomość języka eltharin" },
+    { "id": 94, "name": "Znajomość języka khazalid" },
+    { "id": 95, "name": "Znajomość języka niziołków" },
+    { "id": 96, "name": "Żeglarstwo" },
+    { "id": 97, "name": "Język tajemny (demoniczny)" },
+    { "id": 98, "name": "Język tajemny (elfi)" },
+    { "id": 99, "name": "Nauka (strategia/taktyka)" },
+    { "id": 100, "name": "Nauka (sztuka)" },
+    { "id": 101, "name": "Rzemiosło (szkutnictwo)" },
+    { "id": 102, "name": "Nauka (inżynieria)" },
+    { "id": 103, "name": "Nauka (mechanika)" },
+    { "id": 104, "name": "Rzemiosło (kartografia)" },
+    { "id": 105, "name": "Czytanie z warg" },
+    { "id": 106, "name": "Rzemiosło (handel)" },
+    { "id": 107, "name": "Torturowanie" },
+    { "id": 108, "name": "Nauka (nekromancja)" },
+    { "id": 109, "name": "Warzenie trucizn" },
+    { "id": 110, "name": "Sekretne znaki (rycerzy zakonnych)" }
+  ],
+  "talents": [
+    { "id": 1, "name": "Bardzo silny" },
+    { "id": 2, "name": "Bardzo szybki" },
+    { "id": 3, "name": "Bardzo wytrzymały" },
+    { "id": 4, "name": "Bijatyka" },
+    { "id": 5, "name": "Błyskawiczne przeładowanie" },
+    { "id": 6, "name": "Błyskotliwość" },
+    { "id": 7, "name": "Brawura" },
+    { "id": 8, "name": "Broń specjalna (długi łuk)" },
+    { "id": 9, "name": "Broń specjalna (dwuręczna)" },
+    { "id": 10, "name": "Broń specjalna (kawalerijska)" },
+    { "id": 11, "name": "Broń specjalna (korbacze)" },
+    { "id": 12, "name": "Broń specjalna (palna)" },
+    { "id": 13, "name": "Broń specjalna (parująca)" },
+    { "id": 14, "name": "Broń specjalna (proca)" },
+    { "id": 15, "name": "Broń specjalna (rzucana)" },
+    { "id": 16, "name": "Broń specjalna (szermiercza)" },
+    { "id": 17, "name": "Broń specjalna (unieruchamiająca)" },
+    { "id": 18, "name": "Broń specjalna (zmysł magii)" },
+    { "id": 19, "name": "Bystry wzrok" },
+    { "id": 20, "name": "Charyzmatyczny" },
+    { "id": 21, "name": "Chirurgia" },
+    { "id": 22, "name": "Chodu!" },
+    { "id": 23, "name": "Czuły słuch" },
+    { "id": 24, "name": "Dotyk mocy" },
+    { "id": 25, "name": "Etykieta" },
+    { "id": 26, "name": "Geniusz arytmetyczny" },
+    { "id": 27, "name": "Groźny" },
+    { "id": 28, "name": "Grotolaz" },
+    { "id": 29, "name": "Gusta" },
+    { "id": 30, "name": "Intrygant" },
+    { "id": 31, "name": "Krasnoludzki fach" },
+    { "id": 32, "name": "Krzepki" },
+    { "id": 33, "name": "Łotrzyk" },
+    { "id": 34, "name": "Magia prosta (gusta)" },
+    { "id": 35, "name": "Magia prosta (tajemna)" },
+    { "id": 36, "name": "Morderczy atak" },
+    { "id": 37, "name": "Naśladowca" },
+    { "id": 38, "name": "Niezwykle odporny" },
+    { "id": 39, "name": "Obieżyświat" },
+    { "id": 40, "name": "Oburęczność" },
+    { "id": 41, "name": "Odporność na Chaos" },
+    { "id": 42, "name": "Odporność na choroby" },
+    { "id": 43, "name": "Odporność na magię" },
+    { "id": 44, "name": "Odporność na trucizny" },
+    { "id": 45, "name": "Odporność psychiczna" },
+    { "id": 46, "name": "Odwaga" },
+    { "id": 47, "name": "Ogłuszanie" },
+    { "id": 48, "name": "Opanowanie" },
+    { "id": 49, "name": "Poliglota" },
+    { "id": 50, "name": "Przemawianie" },
+    { "id": 51, "name": "Rozbrajanie" },
+    { "id": 52, "name": "Silny cios" },
+    { "id": 53, "name": "Strzał mierzony" },
+    { "id": 54, "name": "Strzał precyzyjny" },
+    { "id": 55, "name": "Strzelec wyborowy" },
+    { "id": 56, "name": "Szał bojowy" },
+    { "id": 57, "name": "Szczęście" },
+    { "id": 58, "name": "Szósty zmysł" },
+    { "id": 59, "name": "Szybki refleks" },
+    { "id": 60, "name": "Szybkie wyciągnięcie" },
+    { "id": 61, "name": "Twardziel" },
+    { "id": 62, "name": "Uliczny" },
+    { "id": 63, "name": "Urodzony wojownik" },
+    { "id": 64, "name": "Wędrowiec" },
+    { "id": 65, "name": "Widzenie w ciemności" },
+    { "id": 66, "name": "Woltyżerka" },
+    { "id": 67, "name": "Wyczucie kierunku" },
+    { "id": 68, "name": "Wykrywanie pułapek" },
+    { "id": 69, "name": "Zapasy" },
+    { "id": 70, "name": "Zapiekła nienawiść" },
+    { "id": 71, "name": "Zmysł magii" },
+    { "id": 72, "name": "Żyłka handlowa" },
+    { "id": 73, "name": "Pancerz wiary" },
+    { "id": 74, "name": "Medytacja" },
+    { "id": 75, "name": "Czarnoksięstwo" },
+    { "id": 76, "name": "Magia powszechna" },
+    { "id": 77, "name": "Krasomówstwo" },
+    { "id": 78, "name": "Błyskawiczny blok" },
+    { "id": 79, "name": "Strzał przebijający" },
+    { "id": 80, "name": "Broń specjalna (mechaniczna)" },
+    { "id": 81, "name": "Magia prosta (kapłańska)" },
+    { "id": 82, "name": "Broń specjalna (kusze)" },
+    { "id": 83, "name": "Talent artystyczny" },
+    { "id": 84, "name": "Nieustraszony" },
+    { "id": 85, "name": "Niepokojący" }
+  ],
+  "races": {
+    "Człowiek": {
+      "id": 1,
+      "name": "Człowiek",
+      "base_stats": { "WW": 20, "US": 20, "K": 20, "Odp": 20, "Zr": 20, "Int": 20, "SW": 20, "Ogd": 20 },
+      "secondary_stats": { "A": 1, "Żyw": 0, "S": 0, "Wt": 0, "Sz": 4, "Mag": 0, "Po": 0, "PP": 0 },
+      "vitality_table": [
+        { "range": [1, 3], "value": 10 },
+        { "range": [4, 6], "value": 11 },
+        { "range": [7, 9], "value": 12 },
+        { "range": [10, 10], "value": 13 }
+      ],
+      "destination_points_table": [
+        { "range": [1, 4], "value": 2 },
+        { "range": [5, 7], "value": 3 },
+        { "range": [8, 10], "value": 3 }
+      ],
+      "skills_and_talents": {
+        "skills": [35, 75, 91],
+        "talents": [],
+        "skill_choices": [],
+        "talent_choices": [],
+        "random_talents": 2
+      },
+      "random_talents_table": [
+        { "range": [1, 4], "talent_id": 1 },
+        { "range": [5, 9], "talent_id": 2 },
+        { "range": [10, 13], "talent_id": 6 },
+        { "range": [14, 18], "talent_id": 19 },
+        { "range": [19, 22], "talent_id": 20 },
+        { "range": [23, 27], "talent_id": 23 },
+        { "range": [28, 31], "talent_id": 26 },
+        { "range": [32, 35], "talent_id": 32 },
+        { "range": [36, 40], "talent_id": 37 },
+        { "range": [41, 44], "talent_id": 38 },
+        { "range": [45, 49], "talent_id": 40 },
+        { "range": [50, 53], "talent_id": 42 },
+        { "range": [54, 57], "talent_id": 43 },
+        { "range": [58, 61], "talent_id": 44 },
+        { "range": [62, 66], "talent_id": 45 },
+        { "range": [67, 71], "talent_id": 48 },
+        { "range": [72, 75], "talent_id": 55 },
+        { "range": [76, 79], "talent_id": 57 },
+        { "range": [80, 83], "talent_id": 58 },
+        { "range": [84, 87], "talent_id": 59 },
+        { "range": [88, 91], "talent_id": 61 },
+        { "range": [92, 95], "talent_id": 63 },
+        { "range": [96, 100], "talent_id": 65 }
+      ],
+      "physical_details": {
+        "height": { "male_base": 160, "female_base": 150 },
+        "weight_table": [
+          { "range": [1, 10], "value": 50 },
+          { "range": [11, 20], "value": 55 },
+          { "range": [21, 30], "value": 60 },
+          { "range": [31, 40], "value": 65 },
+          { "range": [41, 50], "value": 70 },
+          { "range": [51, 60], "value": 75 },
+          { "range": [61, 70], "value": 80 },
+          { "range": [71, 80], "value": 85 },
+          { "range": [81, 90], "value": 90 },
+          { "range": [91, 99], "value": 95 },
+          { "range": [100, 100], "value": 110 }
+        ],
+        "hair_colors": [
+          { "roll": 1, "color": "Popielaty" }, { "roll": 2, "color": "Ciemny blond" },
+          { "roll": 3, "color": "Blond" }, { "roll": 4, "color": "Rudy" },
+          { "roll": 5, "color": "Ciemno rudy" }, { "roll": 6, "color": "Jasnobrązowy" },
+          { "roll": 7, "color": "Brązowy" }, { "roll": 8, "color": "Brązowy" },
+          { "roll": 9, "color": "Ciemnobrązowy" }, { "roll": 10, "color": "Czarny" }
+        ],
+        "eye_colors": [
+          { "roll": 1, "color": "Szary" }, { "roll": 2, "color": "Ciemnoniebieski" },
+          { "roll": 3, "color": "Niebieski" }, { "roll": 4, "color": "Zielony" },
+          { "roll": 5, "color": "Piwny" }, { "roll": 6, "color": "Jasnobrązowy" },
+          { "roll": 7, "color": "Brązowy" }, { "roll": 8, "color": "Ciemnobrązowy" },
+          { "roll": 9, "color": "Fioletowy" }, { "roll": 10, "color": "Czarny" }
+        ]
+      },
+      "personal_details": {
+        "age_table": [
+          { "range": [1, 5], "value": 16 }, { "range": [6, 10], "value": 17 },
+          { "range": [11, 15], "value": 18 }, { "range": [16, 20], "value": 19 },
+          { "range": [21, 25], "value": 20 }, { "range": [26, 30], "value": 21 },
+          { "range": [31, 35], "value": 22 }, { "range": [36, 40], "value": 23 },
+          { "range": [41, 45], "value": 24 }, { "range": [46, 50], "value": 25 },
+          { "range": [51, 55], "value": 26 }, { "range": [56, 60], "value": 27 },
+          { "range": [61, 65], "value": 28 }, { "range": [66, 70], "value": 29 },
+          { "range": [71, 75], "value": 30 }, { "range": [76, 80], "value": 31 },
+          { "range": [81, 85], "value": 32 }, { "range": [86, 90], "value": 33 },
+          { "range": [91, 95], "value": 34 }, { "range": [96, 100], "value": 35 }
+        ],
+        "siblings_table": [
+          { "range": [1, 1], "value": 0 }, { "range": [2, 3], "value": 1 },
+          { "range": [4, 5], "value": 2 }, { "range": [6, 7], "value": 3 },
+          { "range": [8, 9], "value": 4 }, { "range": [10, 10], "value": 5 }
+        ]
+      },
+      "names": {
+        "female": [
+          {"range": [1, 5], "name": "Alexa"}, {"range": [6, 10], "name": "Alfrida"},
+          {"range": [11, 15], "name": "Beatrix"}, {"range": [16, 20], "name": "Bianka"},
+          {"range": [21, 25], "name": "Carlott"}, {"range": [26, 30], "name": "Elfrida"},
+          {"range": [31, 35], "name": "Elise"}, {"range": [36, 40], "name": "Gabrielle"},
+          {"range": [41, 45], "name": "Gretchen"}, {"range": [46, 50], "name": "Hanna"},
+          {"range": [51, 55], "name": "Ilsa"}, {"range": [56, 60], "name": "Klara"},
+          {"range": [61, 65], "name": "Jarla"}, {"range": [66, 70], "name": "Ludmilla"},
+          {"range": [71, 75], "name": "Mathilde"}, {"range": [76, 80], "name": "Regina"},
+          {"range": [81, 85], "name": "Solveig"}, {"range": [86, 90], "name": "Theodora"},
+          {"range": [91, 95], "name": "Ulrike"}, {"range": [96, 100], "name": "Wertha"}
+        ],
+        "male": [
+          {"range": [1, 5], "name": "Adelbert"}, {"range": [6, 10], "name": "Albrecht"},
+          {"range": [11, 15], "name": "Berthold"}, {"range": [16, 20], "name": "Dieter"},
+          {"range": [21, 25], "name": "Eckhardt"}, {"range": [26, 30], "name": "Felix"},
+          {"range": [31, 35], "name": "Gottfried"}, {"range": [36, 40], "name": "Gustav"},
+          {"range": [41, 45], "name": "Heinz"}, {"range": [46, 50], "name": "Johann"},
+          {"range": [51, 55], "name": "Konrad"}, {"range": [56, 60], "name": "Leopold"},
+          {"range": [61, 65], "name": "Magnus"}, {"range": [66, 70], "name": "Otto"},
+          {"range": [71, 75], "name": "Pieter"}, {"range": [76, 80], "name": "Rudiger"},
+          {"range": [81, 85], "name": "Siegfried"}, {"range": [86, 90], "name": "Ulrich"},
+          {"range": [91, 95], "name": "Waldemar"}, {"range": [96, 100], "name": "Wolfgang"}
+        ]
+      }
+    },
+    "Elf": {
+      "id": 2,
+      "name": "Elf",
+      "base_stats": { "WW": 20, "US": 30, "K": 20, "Odp": 20, "Zr": 30, "Int": 20, "SW": 20, "Ogd": 20 },
+      "secondary_stats": { "A": 1, "Żyw": 0, "S": 0, "Wt": 0, "Sz": 5, "Mag": 0, "Po": 0, "PP": 0 },
+      "vitality_table": [
+        { "range": [1, 3], "value": 9 },
+        { "range": [4, 6], "value": 10 },
+        { "range": [7, 9], "value": 11 },
+        { "range": [10, 10], "value": 12 }
+      ],
+      "destination_points_table": [
+        { "range": [1, 4], "value": 1 },
+        { "range": [5, 7], "value": 2 },
+        { "range": [8, 10], "value": 2 }
+      ],
+      "skills_and_talents": {
+        "skills": [74, 93, 91],
+        "talents": [65, 19],
+        "skill_choices": [],
+        "talent_choices": [
+            [8, 18],
+            [48, 6]
+        ],
+        "random_talents": 0
+      },
+      "physical_details": {
+        "height": { "male_base": 170, "female_base": 160 },
+        "weight_table": [
+            { "range": [1, 10], "value": 40 },
+            { "range": [11, 20], "value": 45 },
+            { "range": [21, 30], "value": 50 },
+            { "range": [31, 40], "value": 55 },
+            { "range": [41, 50], "value": 60 },
+            { "range": [51, 60], "value": 65 },
+            { "range": [61, 70], "value": 70 },
+            { "range": [71, 80], "value": 75 },
+            { "range": [81, 90], "value": 80 },
+            { "range": [91, 99], "value": 85 },
+            { "range": [100, 100], "value": 95 }
+        ],
+        "hair_colors": [
+            { "roll": 1, "color": "Srebrny" }, { "roll": 2, "color": "Biały" },
+            { "roll": 3, "color": "Jasny blond" }, { "roll": 4, "color": "Ciemny blond" },
+            { "roll": 5, "color": "Miedziany" }, { "roll": 6, "color": "Jasnobrązowy" },
+            { "roll": 7, "color": "Kasztanowy" }, { "roll": 8, "color": "Brązowy" },
+            { "roll": 9, "color": "Ciemnobrązowy" }, { "roll": 10, "color": "Czarny" }
+        ],
+        "eye_colors": [
+            { "roll": 1, "color": "Szaroniebieski" }, { "roll": 2, "color": "Niebieski" },
+            { "roll": 3, "color": "Zielony" }, { "roll": 4, "color": "Orzechowy" },
+            { "roll": 5, "color": "Kasztanowy" }, { "roll": 6, "color": "Brązowy" },
+            { "roll": 7, "color": "Ciemnobrązowy" }, { "roll": 8, "color": "Srebrny" },
+            { "roll": 9, "color": "Fioletowy" }, { "roll": 10, "color": "Czarny" }
+        ]
+      },
+      "personal_details": {
+        "age_table": [
+            { "range": [1, 5], "value": 30 }, { "range": [6, 10], "value": 35 },
+            { "range": [11, 15], "value": 40 }, { "range": [16, 20], "value": 45 },
+            { "range": [21, 25], "value": 50 }, { "range": [26, 30], "value": 55 },
+            { "range": [31, 35], "value": 60 }, { "range": [36, 40], "value": 65 },
+            { "range": [41, 45], "value": 70 }, { "range": [46, 50], "value": 75 },
+            { "range": [51, 55], "value": 80 }, { "range": [56, 60], "value": 85 },
+            { "range": [61, 65], "value": 90 }, { "range": [66, 70], "value": 95 },
+            { "range": [71, 75], "value": 100 }, { "range": [76, 80], "value": 105 },
+            { "range": [81, 85], "value": 110 }, { "range": [86, 90], "value": 115 },
+            { "range": [91, 95], "value": 120 }, { "range": [96, 100], "value": 125 }
+        ],
+        "siblings_table": [
+            { "range": [1, 1], "value": 0 }, { "range": [2, 3], "value": 1 },
+            { "range": [4, 5], "value": 1 }, { "range": [6, 7], "value": 2 },
+            { "range": [8, 9], "value": 2 }, { "range": [10, 10], "value": 3 }
+        ],
+        "birthplaces_table": [
+            { "range": [1, 20], "place": "Altdorf" },
+            { "range": [21, 40], "place": "Marienburg" },
+            { "range": [41, 70], "place": "Las Laurelorn" },
+            { "range": [71, 85], "place": "Wielki Las" },
+            { "range": [86, 100], "place": "Las Reikwald" }
+        ]
+      },
+      "names": {
+        "female": [
+            {"range": [1, 5], "name": "Alane"}, {"range": [6, 10], "name": "Altronia"},
+            {"range": [11, 15], "name": "Davandrel"}, {"range": [16, 20], "name": "Eldril"},
+            {"range": [21, 25], "name": "Eponia"}, {"range": [26, 30], "name": "Fanriel"},
+            {"range": [31, 35], "name": "Filamir"}, {"range": [36, 40], "name": "Gallina"},
+            {"range": [41, 45], "name": "Halion"}, {"range": [46, 50], "name": "Iludil"},
+            {"range": [51, 55], "name": "Ionor"}, {"range": [56, 60], "name": "Lindara"},
+            {"range": [61, 65], "name": "Lorandara"}, {"range": [66, 70], "name": "Maruviel"},
+            {"range": [71, 75], "name": "Pelgrana"}, {"range": [76, 80], "name": "Siluvaine"},
+            {"range": [81, 85], "name": "Tallana"}, {"range": [86, 90], "name": "Ulliana"},
+            {"range": [91, 95], "name": "Vivandrel"}, {"range": [96, 100], "name": "Yuviel"}
+        ],
+        "male": [
+            {"range": [1, 5], "name": "Aluthol"}, {"range": [6, 10], "name": "Amendil"},
+            {"range": [11, 15], "name": "Angran"}, {"range": [16, 20], "name": "Cavindel"},
+            {"range": [21, 25], "name": "Dolwen"}, {"range": [26, 30], "name": "Eldillor"},
+            {"range": [31, 35], "name": "Falandar"}, {"range": [36, 40], "name": "Farnoth"},
+            {"range": [41, 45], "name": "Gildiril"}, {"range": [46, 50], "name": "Harrond"},
+            {"range": [51, 55], "name": "Imhol"}, {"range": [56, 60], "name": "Larandar"},
+            {"range": [61, 65], "name": "Laurenor"}, {"range": [66, 70], "name": "Mellion"},
+            {"range": [71, 75], "name": "Mormacar"}, {"range": [76, 80], "name": "Ravandil"},
+            {"range": [81, 85], "name": "Torendil"}, {"range": [86, 90], "name": "Urdithane"},
+            {"range": [91, 95], "name": "Valahuir"}, {"range": [96, 100], "name": "Yavandir"}
+        ]
+      }
+    },
+    "Krasnolud": {
+      "id": 3,
+      "name": "Krasnolud",
+      "base_stats": { "WW": 30, "US": 20, "K": 20, "Odp": 30, "Zr": 10, "Int": 20, "SW": 20, "Ogd": 10 },
+      "secondary_stats": { "A": 1, "Żyw": 0, "S": 0, "Wt": 0, "Sz": 3, "Mag": 0, "Po": 0, "PP": 0 },
+      "vitality_table": [
+        { "range": [1, 3], "value": 11 },
+        { "range": [4, 6], "value": 12 },
+        { "range": [7, 9], "value": 13 },
+        { "range": [10, 10], "value": 14 }
+      ],
+      "destination_points_table": [
+        { "range": [1, 4], "value": 1 },
+        { "range": [5, 7], "value": 2 },
+        { "range": [8, 10], "value": 3 }
+      ],
+      "skills_and_talents": {
+        "skills": [76, 94, 91],
+        "talents": [31, 32, 43, 46, 65, 70],
+        "skill_choices": [
+            [44, 46, 47]
+        ],
+        "talent_choices": [],
+        "random_talents": 0
+      },
+      "physical_details": {
+        "height": { "male_base": 145, "female_base": 130 },
+        "weight_table": [
+            { "range": [1, 10], "value": 45 },
+            { "range": [11, 20], "value": 50 },
+            { "range": [21, 30], "value": 55 },
+            { "range": [31, 40], "value": 60 },
+            { "range": [41, 50], "value": 65 },
+            { "range": [51, 60], "value": 70 },
+            { "range": [61, 70], "value": 75 },
+            { "range": [71, 80], "value": 80 },
+            { "range": [81, 90], "value": 85 },
+            { "range": [91, 99], "value": 90 },
+            { "range": [100, 100], "value": 100 }
+        ],
+        "hair_colors": [
+            { "roll": 1, "color": "Popielaty" }, { "roll": 2, "color": "Blond" },
+            { "roll": 3, "color": "Ciemny rudy" }, { "roll": 4, "color": "Czerwony" },
+            { "roll": 5, "color": "Rudy" }, { "roll": 6, "color": "Brązowy" },
+            { "roll": 7, "color": "Brązowy" }, { "roll": 8, "color": "Ciemnobrązowy" },
+            { "roll": 9, "color": "Czarny" }, { "roll": 10, "color": "Kruczoczarny" }
+        ],
+        "eye_colors": [
+            { "roll": 1, "color": "Szary" }, { "roll": 2, "color": "Ciemnoniebieski" },
+            { "roll": 3, "color": "Piwny" }, { "roll": 4, "color": "Jasnobrązowy" },
+            { "roll": 5, "color": "Jasnobrązowy" }, { "roll": 6, "color": "Brązowy" },
+            { "roll": 7, "color": "Brązowy" }, { "roll": 8, "color": "Ciemnobrązowy" },
+            { "roll": 9, "color": "Ciemnobrązowy" }, { "roll": 10, "color": "Fioletowy" }
+        ]
+      },
+      "personal_details": {
+        "age_table": [
+            { "range": [1, 5], "value": 20 }, { "range": [6, 10], "value": 25 },
+            { "range": [11, 15], "value": 30 }, { "range": [16, 20], "value": 35 },
+            { "range": [21, 25], "value": 40 }, { "range": [26, 30], "value": 45 },
+            { "range": [31, 35], "value": 50 }, { "range": [36, 40], "value": 55 },
+            { "range": [41, 45], "value": 60 }, { "range": [46, 50], "value": 65 },
+            { "range": [51, 55], "value": 70 }, { "range": [56, 60], "value": 75 },
+            { "range": [61, 65], "value": 80 }, { "range": [66, 70], "value": 85 },
+            { "range": [71, 75], "value": 90 }, { "range": [76, 80], "value": 95 },
+            { "range": [81, 85], "value": 100 }, { "range": [86, 90], "value": 105 },
+            { "range": [91, 95], "value": 110 }, { "range": [96, 100], "value": 115 }
+        ],
+        "siblings_table": [
+            { "range": [1, 1], "value": 0 }, { "range": [2, 3], "value": 0 },
+            { "range": [4, 5], "value": 1 }, { "range": [6, 7], "value": 1 },
+            { "range": [8, 9], "value": 2 }, { "range": [10, 10], "value": 3 }
+        ],
+        "birthplaces_table": [
+            { "range": [1, 30], "place": "Miejsce urodzenia człowieka (rzut na tabeli ludzi)" },
+            { "range": [31, 40], "place": "Karak Norn (Góry Szare)" },
+            { "range": [41, 50], "place": "Karak Izor (Przeskok)" },
+            { "range": [51, 60], "place": "Karak Hirn (Góry Czarne)" },
+            { "range": [61, 70], "place": "Karak Kadrin (Góry Krańca Świata)" },
+            { "range": [71, 80], "place": "Karaz-a-Karak (Góry Krańca Świata)" },
+            { "range": [81, 90], "place": "Zhufbar (Góry Krańca Świata)" },
+            { "range": [91, 100], "place": "Bark Varr (Czarna Zatoka)" }
+        ]
+      },
+      "names": {
+        "female": [
+            {"range": [1, 5], "name": "Anika"}, {"range": [6, 10], "name": "Asta"},
+            {"range": [11, 15], "name": "Astrid"}, {"range": [16, 20], "name": "Berta"},
+            {"range": [21, 25], "name": "Birgit"}, {"range": [26, 30], "name": "Dagmar"},
+            {"range": [31, 35], "name": "Elsa"}, {"range": [36, 40], "name": "Erika"},
+            {"range": [41, 45], "name": "Franziska"}, {"range": [46, 50], "name": "Greta"},
+            {"range": [51, 55], "name": "Hunni"}, {"range": [56, 60], "name": "Ingrid"},
+            {"range": [61, 65], "name": "Janna"}, {"range": [66, 70], "name": "Karin"},
+            {"range": [71, 75], "name": "Petra"}, {"range": [76, 80], "name": "Sigrid"},
+            {"range": [81, 85], "name": "Sigrun"}, {"range": [86, 90], "name": "Silma"},
+            {"range": [91, 95], "name": "Thylda"}, {"range": [96, 100], "name": "Ulla"}
+        ],
+        "male": [
+            {"range": [1, 5], "name": "Bardin"}, {"range": [6, 10], "name": "Brokk"},
+            {"range": [11, 15], "name": "Dimzad"}, {"range": [16, 20], "name": "Durak"},
+            {"range": [21, 25], "name": "Garil"}, {"range": [26, 30], "name": "Gottri"},
+            {"range": [31, 35], "name": "Grundi"}, {"range": [36, 40], "name": "Hargin"},
+            {"range": [41, 45], "name": "Imrak"}, {"range": [46, 50], "name": "Kargun"},
+            {"range": [51, 55], "name": "Jotunn"}, {"range": [56, 60], "name": "Magnar"},
+            {"range": [61, 65], "name": "Mordrin"}, {"range": [66, 70], "name": "Nargond"},
+            {"range": [71, 75], "name": "Orzad"}, {"range": [76, 80], "name": "Ragnar"},
+            {"range": [81, 85], "name": "Snorri"}, {"range": [86, 90], "name": "Storri"},
+            {"range": [91, 95], "name": "Thingrim"}, {"range": [96, 100], "name": "Urgrim"}
+        ]
+      }
+    },
+    "Niziołek": {
+      "id": 4,
+      "name": "Niziołek",
+      "base_stats": { "WW": 10, "US": 30, "K": 10, "Odp": 10, "Zr": 30, "Int": 20, "SW": 20, "Ogd": 30 },
+      "secondary_stats": { "A": 1, "Żyw": 0, "S": 0, "Wt": 0, "Sz": 4, "Mag": 0, "Po": 0, "PP": 0 },
+      "vitality_table": [
+        { "range": [1, 3], "value": 8 },
+        { "range": [4, 6], "value": 9 },
+        { "range": [7, 9], "value": 10 },
+        { "range": [10, 10], "value": 11 }
+      ],
+      "destination_points_table": [
+        { "range": [1, 4], "value": 2 },
+        { "range": [5, 7], "value": 2 },
+        { "range": [8, 10], "value": 3 }
+      ],
+      "skills_and_talents": {
+        "skills": [24, 35, 77, 95, 91],
+        "talents": [14, 41, 65],
+        "skill_choices": [
+            [43, 48]
+        ],
+        "talent_choices": [],
+        "random_talents": 1
+      },
+      "random_talents_table": [
+        { "range": [1, 4], "talent_id": 1 },
+        { "range": [5, 9], "talent_id": 2 },
+        { "range": [10, 13], "talent_id": 6 },
+        { "range": [14, 18], "talent_id": 19 },
+        { "range": [19, 23], "talent_id": 20 },
+        { "range": [24, 28], "talent_id": 23 },
+        { "range": [29, 34], "talent_id": 26 },
+        { "range": [35, 39], "talent_id": 32 },
+        { "range": [40, 44], "talent_id": 37 },
+        { "range": [45, 49], "talent_id": 38 },
+        { "range": [50, 54], "talent_id": 40 },
+        { "range": [55, 58], "talent_id": 42 },
+        { "range": [59, 62], "talent_id": 43 },
+        { "range": [63, 64], "talent_id": 44 },
+        { "range": [65, 68], "talent_id": 45 },
+        { "range": [69, 73], "talent_id": 48 },
+        { "range": [74, 78], "talent_id": 55 },
+        { "range": [79, 82], "talent_id": 57 },
+        { "range": [83, 87], "talent_id": 58 },
+        { "range": [88, 92], "talent_id": 59 },
+        { "range": [93, 96], "talent_id": 61 },
+        { "range": [97, 100], "talent_id": 63 }
+      ],
+      "physical_details": {
+        "height": { "male_base": 110, "female_base": 100 },
+        "weight_table": [
+            { "range": [1, 10], "value": 35 },
+            { "range": [11, 20], "value": 35 },
+            { "range": [21, 30], "value": 40 },
+            { "range": [31, 40], "value": 40 },
+            { "range": [41, 50], "value": 45 },
+            { "range": [51, 60], "value": 45 },
+            { "range": [61, 70], "value": 50 },
+            { "range": [71, 80], "value": 50 },
+            { "range": [81, 90], "value": 55 },
+            { "range": [91, 99], "value": 60 },
+            { "range": [100, 100], "value": 70 }
+        ],
+        "hair_colors": [
+            { "roll": 1, "color": "Popielaty" }, { "roll": 2, "color": "Ciemny blond" },
+            { "roll": 3, "color": "Blond" }, { "roll": 4, "color": "Blond" },
+            { "roll": 5, "color": "Rudy" }, { "roll": 6, "color": "Ciemny rudy" },
+            { "roll": 7, "color": "Jasnobrązowy" }, { "roll": 8, "color": "Brązowy" },
+            { "roll": 9, "color": "Ciemnobrązowy" }, { "roll": 10, "color": "Czarny" }
+        ],
+        "eye_colors": [
+            { "roll": 1, "color": "Niebieski" }, { "roll": 2, "color": "Orzechowy" },
+            { "roll": 3, "color": "Orzechowy" }, { "roll": 4, "color": "Jasnobrązowy" },
+            { "roll": 5, "color": "Jasnobrązowy" }, { "roll": 6, "color": "Brązowy" },
+            { "roll": 7, "color": "Brązowy" }, { "roll": 8, "color": "Ciemnobrązowy" },
+            { "roll": 9, "color": "Ciemnobrązowy" }, { "roll": 10, "color": "Ciemnobrązowy" }
+        ]
+      },
+      "personal_details": {
+        "age_table": [
+            { "range": [1, 5], "value": 20 }, { "range": [6, 10], "value": 22 },
+            { "range": [11, 15], "value": 24 }, { "range": [16, 20], "value": 26 },
+            { "range": [21, 25], "value": 28 }, { "range": [26, 30], "value": 30 },
+            { "range": [31, 35], "value": 32 }, { "range": [36, 40], "value": 34 },
+            { "range": [41, 45], "value": 36 }, { "range": [46, 50], "value": 38 },
+            { "range": [51, 55], "value": 40 }, { "range": [56, 60], "value": 42 },
+            { "range": [61, 65], "value": 44 }, { "range": [66, 70], "value": 46 },
+            { "range": [71, 75], "value": 50 }, { "range": [76, 80], "value": 52 },
+            { "range": [81, 85], "value": 54 }, { "range": [86, 90], "value": 56 },
+            { "range": [91, 95], "value": 58 }, { "range": [96, 100], "value": 60 }
+        ],
+        "siblings_table": [
+            { "range": [1, 1], "value": 1 }, { "range": [2, 3], "value": 2 },
+            { "range": [4, 5], "value": 3 }, { "range": [6, 7], "value": 4 },
+            { "range": [8, 9], "value": 5 }, { "range": [10, 10], "value": 6 }
+        ],
+        "birthplaces_table": [
+            { "range": [1, 50], "place": "Kraina Zgromadzenia" },
+            { "range": [51, 100], "place": "Miejsce urodzenia człowieka (rzut na tabeli ludzi)" }
+        ]
+      },
+      "names": {
+        "female": [
+            {"range": [1, 5], "name": "Agnes"}, {"range": [6, 10], "name": "Alice"},
+            {"range": [11, 15], "name": "Elena"}, {"range": [16, 20], "name": "Eva"},
+            {"range": [21, 25], "name": "Frida"}, {"range": [26, 30], "name": "Greta"},
+            {"range": [31, 35], "name": "Hanna"}, {"range": [36, 40], "name": "Heidi"},
+            {"range": [41, 45], "name": "Hilda"}, {"range": [46, 50], "name": "Janna"},
+            {"range": [51, 55], "name": "Karin"}, {"range": [56, 60], "name": "Leni"},
+            {"range": [61, 65], "name": "Marie"}, {"range": [66, 70], "name": "Petra"},
+            {"range": [71, 75], "name": "Silma"}, {"range": [76, 80], "name": "Sophia"},
+            {"range": [81, 85], "name": "Susi"}, {"range": [86, 90], "name": "Theda"},
+            {"range": [91, 95], "name": "Ulla"}, {"range": [96, 100], "name": "Wanda"}
+        ],
+        "male": [
+            {"range": [1, 5], "name": "Adam"}, {"range": [6, 10], "name": "Albert"},
+            {"range": [11, 15], "name": "Alfred"}, {"range": [16, 20], "name": "Axel"},
+            {"range": [21, 25], "name": "Carl"}, {"range": [26, 30], "name": "Edgar"},
+            {"range": [31, 35], "name": "Hugo"}, {"range": [36, 40], "name": "Jakob"},
+            {"range": [41, 45], "name": "Ludo"}, {"range": [46, 50], "name": "Max"},
+            {"range": [51, 55], "name": "Niklaus"}, {"range": [56, 60], "name": "Oskar"},
+            {"range": [61, 65], "name": "Paul"}, {"range": [66, 70], "name": "Ralf"},
+            {"range": [71, 75], "name": "Rudi"}, {"range": [76, 80], "name": "Theo"},
+            {"range": [81, 85], "name": "Thomas"}, {"range": [86, 90], "name": "Udo"},
+            {"range": [91, 95], "name": "Viktor"}, {"range": [96, 100], "name": "Walter"}
+        ]
+      }
+    }
+  },
+  "general_tables": {
+    "star_signs": [
+        { "range": [1, 5], "sign": "Bębniarz (Znak Zabawy i Radości)" },
+        { "range": [6, 10], "sign": "Dudy (Znak Oszustwa)" },
+        { "range": [11, 15], "sign": "Dwa Byki (Znak Płodności i Rzemiosła)" },
+        { "range": [16, 25], "sign": "Głupiec Mummit (Znak Instynktu)" },
+        { "range": [26, 30], "sign": "Gwiazda Uroku (Znak Magii)" },
+        { "range": [31, 35], "sign": "Gwiazda Wieczorna (Znak Tajemnicy i Iluzji)" },
+        { "range": [36, 40], "sign": "Kocioł Rhyi (Znak Łaski, Śmierci i Tworzenia)" },
+        { "range": [41, 45], "sign": "Lancet (Znak Nauki i Talentu)" },
+        { "range": [46, 50], "sign": "Mędrzec Mammit (Znak Mądrości)" },
+        { "range": [51, 55], "sign": "Pas Grungniego (Znak Sprawności Wojennej)" },
+        { "range": [56, 60], "sign": "Rozbity Wóz (Znak Dumy)" },
+        { "range": [61, 65], "sign": "Smok Dragomas (Znak Odwagi)" },
+        { "range": [66, 70], "sign": "Sznur Limnera (Znak Dokładności)" },
+        { "range": [71, 75], "sign": "Tancerka (Znak Miłości i Pożądania)" },
+        { "range": [76, 80], "sign": "Tłusty Kozioł (Znak Ukrytej Namiętności)" },
+        { "range": [81, 85], "sign": "Vobist Ulotny (Znak Ciemności i Niepewności)" },
+        { "range": [86, 90], "sign": "Wielki Krzyż (Znak Czystości)" },
+        { "range": [91, 95], "sign": "Wół Gnuthus (Znak Wiernej Służby)" },
+        { "range": [96, 98], "sign": "Wymund Pustelnik (Znak Wytrzymałości)" },
+        { "range": [99, 100], "sign": "Złoty Kogut (Znak Kupców i Bogactwa)" }
+    ],
+    "distinguishing_marks": [
+        { "range": [1, 5], "mark": "Bielmo na oku" },
+        { "range": [6, 10], "mark": "Blizna" },
+        { "range": [11, 15], "mark": "Brak brwi" },
+        { "range": [16, 20], "mark": "Brak palca" },
+        { "range": [21, 25], "mark": "Brak zęba" },
+        { "range": [26, 29], "mark": "Brodawki" },
+        { "range": [30, 35], "mark": "Blada cera" },
+        { "range": [36, 39], "mark": "Duży nos" },
+        { "range": [40, 45], "mark": "Duży pieprzyk" },
+        { "range": [46, 50], "mark": "Dziwny zapach ciała" },
+        { "range": [51, 55], "mark": "Kolczyk w nosie" },
+        { "range": [56, 60], "mark": "Kolczyk w uchu" },
+        { "range": [61, 65], "mark": "Niewielka łysina" },
+        { "range": [66, 70], "mark": "Oczy różnego koloru" },
+        { "range": [71, 75], "mark": "Piegi" },
+        { "range": [76, 80], "mark": "Poszarpane ucho" },
+        { "range": [81, 84], "mark": "Ślady po ospie" },
+        { "range": [85, 89], "mark": "Tatuaż" },
+        { "range": [90, 94], "mark": "Wystające zęby" },
+        { "range": [95, 98], "mark": "Wytrzeszczone oczy" },
+        { "range": [99, 100], "mark": "Złamany nos" }
+    ],
+    "human_birthplaces": {
+      "provinces": [
+        { "roll": 1, "name": "Averland" }, { "roll": 2, "name": "Hochland" },
+        { "roll": 3, "name": "Middenland" }, { "roll": 4, "name": "Nordland" },
+        { "roll": 5, "name": "Ostermark" }, { "roll": 6, "name": "Ostland" },
+        { "roll": 7, "name": "Reikland" }, { "roll": 8, "name": "Stirland" },
+        { "roll": 9, "name": "Talabecland" }, { "roll": 0, "name": "Wissenland" }
+      ],
+      "settlements": [
+        { "roll": 1, "type": "Stolica prowincji" }, { "roll": 2, "type": "Bogate miasto" },
+        { "roll": 3, "type": "Miasto targowe" }, { "roll": 4, "type": "Fort wojskowy" },
+        { "roll": 5, "type": "Miasteczko" }, { "roll": 6, "type": "Bogata wieś" },
+        { "roll": 7, "type": "Wioska rolnicza" }, { "roll": 8, "type": "Wioska rybacka" },
+        { "roll": 9, "type": "Biedna wioska" }, { "roll": 0, "type": "Samotna chata" }
+      ]
+    }
+  },
+  "race_profession_tables": {
+    "Człowiek": [
+      { "range": [1, 2], "profession": "Akolita" }, { "range": [3, 4], "profession": "Banita" },
+      { "range": [5, 5], "profession": "Berserker z Norski" }, { "range": [6, 7], "profession": "Chłop" },
+      { "range": [8, 9], "profession": "Ciura obozowa" }, { "range": [10, 11], "profession": "Cyrkowiec" },
+      { "range": [12, 12], "profession": "Cyrulik" }, { "range": [13, 14], "profession": "Fanatyk" },
+      { "range": [15, 16], "profession": "Flisak" }, { "range": [17, 18], "profession": "Giermek" },
+      { "range": [19, 20], "profession": "Gladiator" }, { "range": [21, 22], "profession": "Górnik" },
+      { "range": [23, 23], "profession": "Guślarz" }, { "range": [24, 25], "profession": "Hiena cmentarna" },
+      { "range": [26, 27], "profession": "Kanciarz" }, { "range": [28, 28], "profession": "Kozak kislevski" },
+      { "range": [29, 30], "profession": "Leśnik" }, { "range": [31, 32], "profession": "Łowca" },
+      { "range": [33, 34], "profession": "Łowca nagród" }, { "range": [35, 36], "profession": "Mieszczanin" },
+      { "range": [37, 38], "profession": "Mytnik" }, { "range": [39, 40], "profession": "Najemnik" },
+      { "range": [41, 42], "profession": "Ochotnik" }, { "range": [43, 44], "profession": "Ochroniarz" },
+      { "range": [45, 46], "profession": "Oprych" }, { "range": [47, 48], "profession": "Paź" },
+      { "range": [49, 50], "profession": "Podżegacz" }, { "range": [51, 52], "profession": "Porywacz zwłok" },
+      { "range": [53, 54], "profession": "Posłaniec" }, { "range": [55, 56], "profession": "Przemytnik" },
+      { "range": [57, 58], "profession": "Przepatrywacz" }, { "range": [59, 59], "profession": "Przewoźnik" },
+      { "range": [60, 61], "profession": "Rybak" }, { "range": [62, 63], "profession": "Rzemieślnik" },
+      { "range": [64, 65], "profession": "Rzezimieszek" }, { "range": [66, 67], "profession": "Skryba" },
+      { "range": [68, 69], "profession": "Sługa" }, { "range": [70, 71], "profession": "Strażnik" },
+      { "range": [72, 73], "profession": "Strażnik dróg" }, { "range": [74, 74], "profession": "Strażnik więzienny" },
+      { "range": [75, 76], "profession": "Szczurołap" }, { "range": [77, 77], "profession": "Szermierz estalijski" },
+      { "range": [78, 79], "profession": "Szlachcic" }, { "range": [80, 81], "profession": "Śmieciarz" },
+      { "range": [82, 83], "profession": "Uczeń czarodzieja" }, { "range": [84, 85], "profession": "Węglarz" },
+      { "range": [86, 87], "profession": "Włóczykij" }, { "range": [88, 89], "profession": "Woźnica" },
+      { "range": [90, 90], "profession": "Zarządca" }, { "range": [91, 92], "profession": "Złodziej" },
+      { "range": [93, 94], "profession": "Żak" }, { "range": [95, 96], "profession": "Żeglarz" },
+      { "range": [97, 98], "profession": "Żołnierz" }, { "range": [99, 100], "profession": "Żołnierz okrętowy" }
+    ],
+    "Elf": [
+      { "range": [1, 5], "profession": "Banita" }, { "range": [6, 10], "profession": "Cyrkowiec" },
+      { "range": [11, 16], "profession": "Kanciarz" }, { "range": [17, 24], "profession": "Łowca" },
+      { "range": [25, 29], "profession": "Najemnik" }, { "range": [30, 31], "profession": "Paź" },
+      { "range": [32, 37], "profession": "Posłaniec" }, { "range": [38, 43], "profession": "Przepatrywacz" },
+      { "range": [44, 50], "profession": "Rzecznik rodu" }, { "range": [51, 57], "profession": "Rzemieślnik" },
+      { "range": [58, 63], "profession": "Skryba" }, { "range": [64, 70], "profession": "Uczeń czarodzieja" },
+      { "range": [71, 77], "profession": "Włóczykij" }, { "range": [78, 84], "profession": "Wojownik klanowy" },
+      { "range": [85, 90], "profession": "Złodziej" }, { "range": [91, 95], "profession": "Żak" },
+      { "range": [96, 100], "profession": "Żeglarz" }
+    ],
+    "Krasnolud": [
+      { "range": [1, 3], "profession": "Banita" }, { "range": [4, 6], "profession": "Cyrkowiec" },
+      { "range": [7, 11], "profession": "Gladiator" }, { "range": [12, 16], "profession": "Goniec" },
+      { "range": [17, 22], "profession": "Górnik" }, { "range": [23, 25], "profession": "Hiena cmentarna" },
+      { "range": [26, 29], "profession": "Łowca" }, { "range": [30, 33], "profession": "Mieszczanin" },
+      { "range": [34, 36], "profession": "Mytnik" }, { "range": [37, 42], "profession": "Najemnik" },
+      { "range": [43, 46], "profession": "Ochotnik" }, { "range": [47, 50], "profession": "Ochroniarz" },
+      { "range": [51, 52], "profession": "Podżegacz" }, { "range": [53, 55], "profession": "Przemytnik" },
+      { "range": [56, 59], "profession": "Rzemieślnik" }, { "range": [60, 63], "profession": "Rzezimieszek" },
+      { "range": [64, 65], "profession": "Skryba" }, { "range": [66, 67], "profession": "Sługa" },
+      { "range": [68, 69], "profession": "Strażnik" }, { "range": [70, 73], "profession": "Strażnik więzienny" },
+      { "range": [74, 77], "profession": "Szczurołap" }, { "range": [78, 79], "profession": "Szlachcic" },
+      { "range": [80, 83], "profession": "Tarczownik" }, { "range": [84, 85], "profession": "Woźnica" },
+      { "range": [86, 89], "profession": "Zabójca trolli" }, { "range": [90, 92], "profession": "Złodziej" },
+      { "range": [93, 94], "profession": "Żak" }, { "range": [95, 95], "profession": "Żeglarz" },
+      { "range": [96, 99], "profession": "Żołnierz" }, { "range": [100, 100], "profession": "Żołnierz okrętowy" }
+    ],
+    "Niziołek": [
+      { "range": [1, 3], "profession": "Banita" }, { "range": [4, 5], "profession": "Ciura obozowa" },
+      { "range": [6, 8], "profession": "Cyrkowiec" }, { "range": [9, 9], "profession": "Cyrulik" },
+      { "range": [10, 14], "profession": "Hiena cmentarna" }, { "range": [15, 20], "profession": "Kanciarz" },
+      { "range": [21, 25], "profession": "Łowca" }, { "range": [26, 27], "profession": "Łowca nagród" },
+      { "range": [28, 29], "profession": "Mieszczanin" }, { "range": [30, 31], "profession": "Mytnik" },
+      { "range": [32, 35], "profession": "Najemnik" }, { "range": [36, 40], "profession": "Ochotnik" },
+      { "range": [41, 42], "profession": "Paź" }, { "range": [43, 45], "profession": "Podżegacz" },
+      { "range": [46, 48], "profession": "Porywacz zwłok" }, { "range": [49, 53], "profession": "Posłaniec" },
+      { "range": [54, 56], "profession": "Przemytnik" }, { "range": [57, 57], "profession": "Przewoźnik" },
+      { "range": [58, 58], "profession": "Rybak" }, { "range": [59, 63], "profession": "Rzemieślnik" },
+      { "range": [64, 68], "profession": "Sługa" }, { "range": [69, 72], "profession": "Strażnik" },
+      { "range": [73, 74], "profession": "Strażnik dróg" }, { "range": [75, 78], "profession": "Strażnik pól" },
+      { "range": [79, 82], "profession": "Szczurołap" }, { "range": [83, 83], "profession": "Śmieciarz" },
+      { "range": [84, 86], "profession": "Węglarz" }, { "range": [87, 90], "profession": "Włóczykij" },
+      { "range": [91, 96], "profession": "Złodziej" }, { "range": [97, 98], "profession": "Żak" },
+      { "range": [99, 100], "profession": "Żołnierz" }
+    ]
+  },
+  "base_class":{
+    "Akolita": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Odp": [5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 18, 29, 38, 59, 89, 91],
+      "skill_choices": [[21, 26]],
+      "talents": [50],
+      "talent_choices": [[1, 59], [20, 63]],
+      "equipment": [129, 127],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Cyrulik", "Demagog", "Fanatyk", "Kapłan", "Skryba", "Zakonnik"]
+    },
+    "Banita": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [59, 65, 66, 79, 57],
+      "skill_choices": [[31, 75], [52, 35], [8, 37], [36, 82]],
+      "talents": [],
+      "talent_choices": [[53, 47], [64, 33]],
+      "equipment": [163, 123, 32, 135],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Demagog", "Rozbójnik", "Weteran", "Włóczykij", "Złodziej"]
+    },
+    "Berserker z Norski": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [14, 19, 36, 72, 83, 90],
+      "skill_choices": [],
+      "talents": [9, 27, 56, 60],
+      "talent_choices": [],
+      "equipment": [32, 21],
+      "equipment_choices": [[8, 135]],
+      "profesja_wyjsciowa": ["Gladiator", "Najemnik", "Sierżant", "Weteran", "Żeglarz"]
+    },
+    "Chłop": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [65],
+      "skill_choices": [[6, 17, 16], [31, 38], [32, 43], [37, 49], [60, 48], [63, 36], [78, 82], [79, 57]],
+      "talents": [],
+      "talent_choices": [[22, 14], [61, 64]],
+      "equipment": [120],
+      "equipment_choices": [[101, 39]],
+      "profesja_wyjsciowa": ["Banita", "Fanatyk", "Ochotnik", "Rybak", "Rzemieślnik", "Sługa", "Śmieciarz", "Urzędnik", "Węglarz"]
+    },
+    "Ciura obozowa": {
+      "advances": {
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [35, 39, 59, 62, 85],
+      "skill_choices": [[31, 37], [38, 80], [43, 10, 11, 12, 34, 40, 49, 84], [86, 88, 92]],
+      "talents": [22],
+      "talent_choices": [[42, 39], [61, 20], [72, 4]],
+      "equipment": [116, 80],
+      "equipment_choices": [[134, 85]],
+      "profesja_wyjsciowa": ["Przemytnik", "Rzemieślnik", "Sługa", "Szarlatan", "Szpieg", "Węglarz", "Włóczykij"]
+    },
+    "Cyrkowiec": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [38, 59, 75, 91],
+      "skill_choices": [[15, 13], [14, 16, 17], [31, 36], [1, 5, 7, 8, 32, 63, 79]],
+      "talents": [],
+      "talent_choices": [[1, 15, 37, 50, 53, 59, 60, 66, 69], [1, 15, 37, 50, 53, 59, 60, 66, 69]],
+      "equipment": [32],
+      "equipment_choices": [[90, 137, 30, 84], [50, 139]],
+      "profesja_wyjsciowa": ["Bard", "Kanciarz", "Szarlatan", "Włóczykij", "Złodziej"]
+    },
+    "Cyrulik": {
+      "advances": {
+        "WW": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 18, 59, 62, 41],
+      "skill_choices": [[36, 37], [86, 91, 92]],
+      "talents": [21],
+      "talent_choices": [[20, 38], [6, 42]],
+      "equipment": [83],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Medyk", "Oprawca", "Porywacz zwłok", "Rzemieślnik", "Włóczykij"]
+    },
+    "Fanatyk": {
+      "advances": {
+        "WW": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 29, 38, 69, 83],
+      "skill_choices": [[11, 50]],
+      "talents": [],
+      "talent_choices": [[48, 1], [61, 20]],
+      "equipment": [58, 122, 22],
+      "equipment_choices": [[47, 77], [122, 22]],
+      "profesja_wyjsciowa": ["Akolita", "Banita", "Biczownik", "Podżegacz", "Zakonnik"]
+    },
+    "Flisak": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [30, 36, 59, 60, 78, 96],
+      "skill_choices": [[19, 35], [55, 88], [69, 71]],
+      "talents": [39, 67],
+      "talent_choices": [],
+      "equipment": [58, 162],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Nawigator", "Przemytnik", "Rybak", "Żeglarz", "Żołnierz okrętowy"]
+    },
+    "Giermek": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5],
+        "Ogd": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [8, 31, 63, 66],
+      "skill_choices": [[23, 25, 67], [38, 35], [86, 91]],
+      "talents": [10, 25, 52],
+      "talent_choices": [],
+      "equipment": [62, 31, 13, 58, 135, 43, 118, 143],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Rycerz", "Sierżant", "Szlachcic", "Weteran"]
+    },
+    "Gladiator": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [66, 83],
+      "skill_choices": [],
+      "talents": [9, 11, 52, 69],
+      "talent_choices": [[1, 45], [13, 51], [60, 36]],
+      "equipment": [37, 31, 58],
+      "equipment_choices": [[47, 8], [135, 107]],
+      "profesja_wyjsciowa": ["Łowca nagród", "Najemnik", "Rzezimieszek", "Weteran", "Zabójca trolli"]
+    },
+    "Goniec": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5],
+        "Żyw": [1, 1],
+        "Sz": [1]
+      },
+      "skills": [30, 36, 51, 59, 60, 66],
+      "skill_choices": [],
+      "talents": [5, 22, 67],
+      "talent_choices": [[2, 58], [3, 1]],
+      "equipment": [59, 4, 58, 75, 134],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Hiena cmentarna", "Szczurołap", "Tarczownik", "Weteran", "Zwiadowca"]
+    },
+    "Górnik": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5, 5],
+        "Odp": [5],
+        "Int": [5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [30, 31, 59, 79],
+      "skill_choices": [[44], [65], [80, 60]],
+      "talents": [9, 67],
+      "talent_choices": [[3, 63]],
+      "equipment": [16, 58, 40, 161, 65, 92],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Inżynier", "Najemnik", "Przemytnik", "Tarczownik", "Węglarz", "Zwiadowca"]
+    },
+    "Guślarz": {
+      "advances": {
+        "Odp": [5],
+        "Zr": [5],
+        "Int": [5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1],
+        "Mag": [1]
+      },
+      "skills": [39, 58, 59, 81],
+      "skill_choices": [[18, 7], [31, 62], [32, 41], [38, 83]],
+      "talents": [29, 34],
+      "talent_choices": [],
+      "equipment": [75, 110],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Akolita", "Banita", "Szarlatan", "Uczeń czarodzieja", "Włóczykij"]
+    },
+    "Hiena cmentarna": {
+      "advances": {
+        "WW": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 39, 59, 79, 80],
+      "skill_choices": [[33, 57], [65, 60], [75, 52], [93, 94, 89]],
+      "talents": [],
+      "talent_choices": [[57, 58], [68, 28]],
+      "equipment": [58, 160, 63, 92, 69, 146],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Łowca wampirów", "Paser", "Szczurołap", "Tarczownik", "Złodziej"]
+    },
+    "Kanciarz": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [5, 62, 38, 59, 80, 91],
+      "skill_choices": [[6, 52], [13, 14], [35, 39], [56]],
+      "talents": [50],
+      "talent_choices": [[22, 33], [57, 58]],
+      "equipment": [],
+      "equipment_choices": [[140, 155, 133]],
+      "profesja_wyjsciowa": ["Banita", "Cyrkowiec", "Demagog", "Sługa", "Szarlatan", "Złodziej"]
+    },
+    "Kozak kislevski": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [19, 39, 59, 60, 66, 71, 88],
+      "skill_choices": [[6, 62]],
+      "talents": [9, 36],
+      "talent_choices": [],
+      "equipment": [163, 123, 17, 41, 58, 88],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Łowca nagród", "Najemnik", "Sierżant", "Tarczownik", "Weteran"]
+    },
+    "Leśnik": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5, 5],
+        "Zr": [5],
+        "SW": [5, 5],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [50, 55, 57, 59, 65, 79],
+      "skill_choices": [[64, 82]],
+      "talents": [9, 64],
+      "talent_choices": [[2, 38]],
+      "equipment": [17, 58, 91],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Łowca", "Ochotnik", "Włóczykij", "Zwiadowca"]
+    },
+    "Łowca": {
+      "advances": {
+        "US": [5, 5, 5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [50, 59, 60, 64, 65],
+      "skill_choices": [[39, 36], [57, 82]],
+      "talents": [5],
+      "talent_choices": [[55, 64], [59, 38], [61, 8]],
+      "equipment": [18, 123, 91],
+      "equipment_choices": [[145]],
+      "profesja_wyjsciowa": ["Górnik", "Łowca nagród", "Strażnik pól", "Strzelec", "Węglarz", "Wojownik klanowy", "Zwiadowca", "Żołnierz"]
+    },
+    "Łowca nagród": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "K": [5],
+        "Zr": [5, 5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [39, 57, 59, 60, 61, 64, 83],
+      "skill_choices": [],
+      "talents": [17, 47, 64],
+      "talent_choices": [[53, 52], [55, 47]],
+      "equipment": [59, 4, 117, 32, 27, 33, 69],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Łowca wampirów", "Najemnik", "Rzezimieszek", "Strzelec", "Zwiadowca"]
+    },
+    "Mieszczanin": {
+      "advances": {
+        "WW": [5],
+        "Zr": [5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [39, 59, 62, 80, 91],
+      "skill_choices": [[35, 3], [69, 19], [86, 88, 92]],
+      "talents": [72],
+      "talent_choices": [[6, 20]],
+      "equipment": [139, 68, 63],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Karczmarz", "Kupiec", "Ochotnik", "Paser", "Paź", "Podżegacz", "Rzemieślnik"]
+    },
+    "Mytnik": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 39, 59, 66, 80],
+      "skill_choices": [[35, 62], [86, 88, 92]],
+      "talents": [],
+      "talent_choices": [[59, 55]],
+      "equipment": [59, 4, 31, 32, 135, 119],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Przewoźnik", "Rozbójnik", "Strażnik pól", "Urzędnik", "Złodziej", "Żołnierz"]
+    },
+    "Najemnik": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5],
+        "SW": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [66],
+      "skill_choices": [[31, 6], [35, 62], [8], [53, 59], [59, 39], [67, 71, 73], [92, 36]],
+      "talents": [],
+      "talent_choices": [[5, 52], [51, 60], [53, 47]],
+      "equipment": [59, 4, 31, 58, 135, 75],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Łowca nagród", "Ochroniarz", "Sierżant", "Tarczownik", "Weteran"]
+    },
+    "Ochotnik": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [31, 39, 42, 59, 60, 66],
+      "skill_choices": [[6, 35], [36]],
+      "talents": [52],
+      "talent_choices": [[9, 5]],
+      "equipment": [58, 27, 78],
+      "equipment_choices": [[25, 163, 123]],
+      "profesja_wyjsciowa": ["Banita", "Mistrz rzemiosła", "Najemnik", "Posłaniec", "Sierżant", "Strażnik pól", "Złodziej"]
+    },
+    "Ochroniarz": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5],
+        "A": [1],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [18, 59, 66, 83],
+      "skill_choices": [],
+      "talents": [4, 13, 15, 47],
+      "talent_choices": [[1, 38], [51, 60]],
+      "equipment": [37, 58, 107],
+      "equipment_choices": [[136, 90]],
+      "profesja_wyjsciowa": ["Łowca nagród", "Najemnik", "Oprawca", "Reketer", "Rzezimieszek", "Strażnik więzienny", "Zarządca"]
+    },
+    "Oprych": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "SW": [5],
+        "Ogd": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [6, 19, 56, 66, 83],
+      "skill_choices": [],
+      "talents": [47, 51],
+      "talent_choices": [[36, 69], [44, 60], [48, 59]],
+      "equipment": [37, 31, 32],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Gladiator", "Najemnik", "Ochroniarz", "Oprawca", "Reketer"]
+    },
+    "Paź": {
+      "advances": {
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 5, 23, 25, 39, 59, 62, 80],
+      "skill_choices": [[35, 86, 91]],
+      "talents": [25],
+      "talent_choices": [[48, 20], [72, 39]],
+      "equipment": [140, 67, 96, 73],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Giermek", "Herold", "Kanciarz", "Majordomus", "Żak"]
+    },
+    "Podżegacz": {
+      "advances": {
+        "WW": [5],
+        "Zr": [5],
+        "Int": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 38, 59, 65, 91],
+      "skill_choices": [[26, 35], [28, 75], [86, 92]],
+      "talents": [22, 50],
+      "talent_choices": [[48, 4]],
+      "equipment": [58, 139, 141],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Demagog", "Fanatyk", "Kanciarz", "Szarlatan", "Urzędnik"]
+    },
+    "Porywacz zwłok": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Zr": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [39, 52, 57, 59, 79],
+      "skill_choices": [[35, 62]],
+      "talents": [22, 42],
+      "talent_choices": [[33, 45]],
+      "equipment": [63, 92, 40, 161, 146],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Paser", "Szczurołap", "Włamywacz", "Złodziej", "Żak"]
+    },
+    "Posłaniec": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [8, 30, 31, 36, 51, 59, 60, 91],
+      "skill_choices": [[69, 70, 35]],
+      "talents": [39, 67],
+      "talent_choices": [],
+      "equipment": [58, 135, 138, 43, 55, 118, 143],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Herold", "Strażnik dróg", "Wojownik klanowy", "Woźnica", "Zwiadowca", "Żołnierz"]
+    },
+    "Przemytnik": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [36, 39, 57, 59, 62, 78, 80],
+      "skill_choices": [[35, 56], [86, 88, 52]],
+      "talents": [],
+      "talent_choices": [[72, 33]],
+      "equipment": [58, 45, 148, 162],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Flisak", "Paser", "Przewoźnik", "Szarlatan", "Tarczownik", "Złodziej", "Żeglarz"]
+    },
+    "Przepatrywacz": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [8, 30, 31, 39, 57, 59, 60, 64],
+      "skill_choices": [],
+      "talents": [17, 67],
+      "talent_choices": [[48, 1]],
+      "equipment": [117, 58, 135, 43, 118, 143, 69, 163, 59, 4, 5, 3],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Najemnik", "Rozbójnik", "Strażnik dróg", "Woźnica", "Zwiadowca"]
+    },
+    "Przewoźnik": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5, 5],
+        "Odp": [5],
+        "Zr": [5],
+        "Int": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [36, 38, 59, 62, 69, 78],
+      "skill_choices": [[35, 83], [80, 55]],
+      "talents": [],
+      "talent_choices": [[12, 4], [55, 20]],
+      "equipment": [58, 59, 4, 20, 1],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Flisak", "Przemytnik", "Rozbójnik", "Strażnik dróg", "Żeglarz"]
+    },
+    "Rybak": {
+      "advances": {
+        "US": [5],
+        "K": [5, 5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [36, 59, 60, 78, 96],
+      "skill_choices": [[19, 62], [30], [69, 70], [91, 90]],
+      "talents": [],
+      "talent_choices": [[61, 6], [67, 4]],
+      "equipment": [150, 117, 69, 51],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Kupiec", "Nawigator", "Ochotnik", "Żeglarz", "Żołnierz okrętowy"]
+    },
+    "Rzecznik rodu": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 35, 36, 38, 54, 59, 62, 80],
+      "skill_choices": [[69, 70]],
+      "talents": [],
+      "talent_choices": [[39, 72]],
+      "equipment": [58, 139, 106],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Kanciarz", "Kupiec", "Szarlatan", "Włóczykij", "Żeglarz", "Żak"]
+    },
+    "Rzemieślnik": {
+      "advances": {
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 54, 59, 62, 80],
+      "skill_choices": [[31, 35], [42, 42]],
+      "talents": [],
+      "talent_choices": [[72, 6]],
+      "equipment": [32],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Fanatyk", "Inżynier", "Kupiec", "Mistrz rzemiosła", "Ochotnik", "Rzecznik rodu"]
+    },
+    "Rzezimieszek": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [8, 66, 83],
+      "skill_choices": [[35, 62]],
+      "talents": [4, 36, 47, 52],
+      "talent_choices": [[27, 20], [51, 60]],
+      "equipment": [31, 58, 135, 43, 118, 143],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Gladiator", "Oprych", "Reketer", "Złodziej", "Zwadźca"]
+    },
+    "Skryba": {
+      "advances": {
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 22, 45, 54, 59, 86, 89],
+      "skill_choices": [[75, 35], [91, 92]],
+      "talents": [49],
+      "talent_choices": [],
+      "equipment": [89, 164, 152, 29, 106, 147],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Akolita", "Nawigator", "Podżegacz", "Uczeń czarodzieja", "Uczony"]
+    },
+    "Sługa": {
+      "advances": {
+        "WW": [5],
+        "K": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [5, 35, 59, 66],
+      "skill_choices": [[3, 85], [31, 43], [39], [62, 80]],
+      "talents": [],
+      "talent_choices": [[3, 59], [23, 22], [25, 61]],
+      "equipment": [139, 70, 52, 28, 65, 92],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Ciura obozowa", "Karczmarz", "Mieszczanin", "Paź", "Podżegacz", "Posłaniec", "Szpieg", "Złodziej"]
+    },
+    "Strażnik": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5],
+        "Zr": [5],
+        "Int": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [28, 35, 39, 59, 64, 66, 83],
+      "skill_choices": [],
+      "talents": [47, 52],
+      "talent_choices": [[48, 6], [51, 4]],
+      "equipment": [58, 78, 64, 92],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Najemnik", "Reketer", "Rzemieślnik", "Sierżant", "Strażnik dróg", "Żołnierz"]
+    },
+    "Strażnik dróg": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [8, 30, 31, 39, 59, 60],
+      "skill_choices": [[64, 51], [69, 35]],
+      "talents": [12],
+      "talent_choices": [[60, 5]],
+      "equipment": [98, 57, 103, 31, 58, 135, 69, 44, 55, 118, 143],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Mytnik", "Posłaniec", "Przepatrywacz", "Rozbójnik", "Sierżant", "Zwiadowca"]
+    },
+    "Strażnik pól": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [39, 57, 59, 60, 64],
+      "skill_choices": [[65, 69]],
+      "talents": [],
+      "talent_choices": [[2, 6], [54, 5], [64, 60]],
+      "equipment": [101, 2, 55, 118, 143, 63, 92, 161],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Łowca nagród", "Łowca wampirów", "Najemnik", "Włóczykij", "Zwiadowca"]
+    },
+    "Strażnik więzienny": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "SW": [5],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [4, 19, 39, 59, 66, 83],
+      "skill_choices": [[18, 85]],
+      "talents": [17, 42, 44, 69],
+      "talent_choices": [],
+      "equipment": [144, 70, 3, 7, 117],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Ochroniarz", "Oprawca", "Strażnik", "Szczurołap", "Zarządca"]
+    },
+    "Szczurołap": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [31, 39, 57, 59, 63, 65, 82],
+      "skill_choices": [],
+      "talents": [14, 28, 42, 44],
+      "talent_choices": [],
+      "equipment": [101, 2, 108, 15, 71, 97],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Porywacz zwłok", "Strażnik więzienny", "Śmieciarz", "Tarczownik", "Włamywacz", "Złodziej"]
+    },
+    "Szermierz estalijski": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 20, 66, 68, 87],
+      "skill_choices": [],
+      "talents": [16, 52],
+      "talent_choices": [[7, 59], [60, 36]],
+      "equipment": [140, 96, 74, 130, 111],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Kanciarz", "Ochroniarz", "Rozbójnik", "Rzezimieszek", "Zwadźca"]
+    },
+    "Szlachcic": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "Zr": [5],
+        "Int": [5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 8, 38, 69, 91],
+      "skill_choices": [[5, 4], [6, 35], [19, 15]],
+      "talents": [25],
+      "talent_choices": [[6, 16], [13, 30], [57, 50]],
+      "equipment": [130, 66, 126, 43, 118, 143, 6],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Dworzanin", "Giermek", "Kanciarz", "Rajtar", "Urzędnik", "Żak"]
+    },
+    "Śmieciarz": {
+      "advances": {
+        "WW": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5],
+        "SW": [5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [31, 39, 59, 62, 69, 80],
+      "skill_choices": [[38, 35]],
+      "talents": [],
+      "talent_choices": [[48, 33], [61, 42]],
+      "equipment": [148, 146],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Ciura obozowa", "Paser", "Porywacz zwłok", "Przemytnik", "Włamywacz"]
+    },
+    "Tarczownik": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "SW": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [30, 59, 61, 66, 79],
+      "skill_choices": [],
+      "talents": [36, 47, 52, 67],
+      "talent_choices": [[23, 48]],
+      "equipment": [59, 4, 41, 58, 88, 135, 69, 51, 11],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Gladiator", "Goniec", "Hiena cmentarna", "Przemytnik", "Sierżant", "Weteran"]
+    },
+    "Uczeń czarodzieja": {
+      "advances": {
+        "Zr": [5],
+        "Int": [5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5],
+        "Mag": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 9, 27, 39, 58, 59, 81, 89],
+      "skill_choices": [],
+      "talents": [35],
+      "talent_choices": [[6, 38], [71, 24]],
+      "equipment": [39, 100, 54],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Skryba", "Uczony", "Wędrowny czarodziej"]
+    },
+    "Węglarz": {
+      "advances": {
+        "WW": [5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5],
+        "Int": [5],
+        "SW": [5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [39, 50, 59, 60, 79],
+      "skill_choices": [[35], [62, 69, 65]],
+      "talents": [22],
+      "talent_choices": [[6, 1]],
+      "equipment": [10, 52, 28],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Górnik", "Leśnik", "Łowca", "Włóczykij", "Zwiadowca"]
+    },
+    "Włóczykij": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [57, 60, 30],
+      "skill_choices": [[14, 16, 17, 50, 52], [18, 59], [35, 55, 56], [62, 36], [67, 68, 71, 73]],
+      "talents": [39],
+      "talent_choices": [[2, 64], [55, 67]],
+      "equipment": [100, 105, 80, 11],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Cyrkowiec", "Leśnik", "Śmieciarz", "Zakonnik", "Złodziej", "Zwiadowca"]
+    },
+    "Wojownik klanowy": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [57, 59, 60, 64, 65, 66, 79],
+      "skill_choices": [[18, 39]],
+      "talents": [],
+      "talent_choices": [[5, 63], [55, 64]],
+      "equipment": [19, 123, 58],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Łowca", "Przepatrywacz", "Weteran", "Włóczykij", "Zwiadowca"]
+    },
+    "Woźnica": {
+      "advances": {
+        "WW": [5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5],
+        "Ogd": [5],
+        "Żyw": [1, 1]
+      },
+      "skills": [30, 31, 50, 59],
+      "skill_choices": [[18, 8], [35, 62]],
+      "talents": [],
+      "talent_choices": [[12, 60, 39]],
+      "equipment": [20, 1, 31, 58, 112],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Mytnik", "Przemytnik", "Przewoźnik", "Rozbójnik", "Strażnik dróg", "Zwiadowca"]
+    },
+    "Zabójca trolli": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5],
+        "SW": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [19, 66, 83],
+      "skill_choices": [],
+      "talents": [4, 9, 52, 61],
+      "talent_choices": [[51, 60], [59, 38]],
+      "equipment": [8, 32, 122, 23],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Zabójca olbrzymów"]
+    },
+    "Zarządca": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 8, 28, 38, 59],
+      "skill_choices": [[4, 30], [31, 35], [83, 69]],
+      "talents": [50],
+      "talent_choices": [[25, 26]],
+      "equipment": [58, 27, 139, 43, 118, 143],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Mytnik", "Ochotnik", "Przemytnik", "Reketer", "Rzezimieszek", "Urzędnik"]
+    },
+    "Złodziej": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5, 5, 5],
+        "Int": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [6, 39, 56, 57, 59, 65],
+      "skill_choices": [[3, 85], [6, 33], [38, 79], [39, 52], [80, 2]],
+      "talents": [],
+      "talent_choices": [[26, 68], [62, 33]],
+      "equipment": [32, 146, 149, 69],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Cyrkowiec", "Hiena cmentarna", "Kanciarz", "Paser", "Szarlatan", "Włamywacz"]
+    },
+    "Żak": {
+      "advances": {
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1]
+      },
+      "skills": [3, 22, 22, 59, 89, 91],
+      "skill_choices": [[18, 39], [35, 38, 19]],
+      "talents": [],
+      "talent_choices": [[6, 20], [25, 49], [39, 26]],
+      "equipment": [106],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Akolita", "Cyrulik", "Inżynier", "Medyk", "Podżegacz", "Rzecznik rodu", "Uczeń czarodzieja", "Uczony"]
+    },
+    "Żeglarz": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5],
+        "K": [5, 5],
+        "Zr": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [36, 66, 78, 79, 96],
+      "skill_choices": [[19, 59], [67, 72, 73, 70], [86, 90, 92]],
+      "talents": [39],
+      "talent_choices": [[52, 7], [61, 4]],
+      "equipment": [32, 23],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Bosman", "Kanciarz", "Nawigator", "Przemytnik", "Żołnierz okrętowy"]
+    },
+    "Żołnierz": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5],
+        "A": [1],
+        "Żyw": [1, 1]
+      },
+      "skills": [66, 83],
+      "skill_choices": [[6, 35], [31, 18], [8], [69, 59]],
+      "talents": [],
+      "talent_choices": [[12, 9], [36, 5], [47, 54], [51, 60], [53, 52]],
+      "equipment": [25, 113, 1, 58, 78, 135],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Najemnik", "Przepatrywacz", "Sierżant", "Strażnik", "Weteran", "Włóczykij"]
+    },
+    "Żołnierz okrętowy": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5, 5],
+        "Zr": [5],
+        "SW": [5],
+        "A": [1],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [19, 36, 66, 78, 83],
+      "skill_choices": [[35, 53], [70, 6]],
+      "talents": [52],
+      "talent_choices": [[47, 51, 60]],
+      "equipment": [58, 135, 69, 51, 163, 59, 123, 4],
+      "equipment_choices": [],
+      "profesja_wyjsciowa": ["Banita", "Bosman", "Oprych", "Przemytnik", "Sierżant"]
+    }
+  },
+  "advanced_class": {
+    "Arcykapłan": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1],
+        "Mag": [1, 1, 1]
+      },
+      "skills": [9, 18, 29, 35, 38, 58, 81, 83],
+      "skill_choices": [
+        [8, 36],
+        [22, 22, 22],
+        [69, 69],
+        [86, 86, 86]
+      ],
+      "talents": [25],
+      "talent_choices": [
+        [24, 38],
+        [76, 76],
+        [73, 36],
+        [71, 74]
+      ],
+      "equipment": [165],
+      "profesja_wstepna": ["Wybraniec boży"],
+      "profesja_wyjsciowa": ["Łowca czarownic", "Uczony", "Urzędnik"]
+    },
+    "Arcymag": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1, 1],
+        "Mag": [1, 1, 1, 1]
+      },
+      "skills": [3, 9, 27, 58, 81],
+      "skill_choices": [
+        [97, 98],
+        [22, 22, 22],
+        [38, 83],
+        [69, 69, 69],
+        [86, 86, 86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [75, 74],
+        [24, 61],
+        [76, 76],
+        [71, 36]
+      ],
+      "equipment": [166, 166, 166, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54],
+      "profesja_wstepna": ["Mistrz magii"],
+      "profesja_wyjsciowa": ["Mistrz gildii", "Odkrywca"]
+    },
+    "Arystokrata": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [3, 4, 8, 24, 35, 38, 59, 69, 80, 89, 91],
+      "skill_choices": [
+        [26, 99]
+      ],
+      "talents": [16, 50, 77],
+      "equipment": [124, 44, 118, 143, 6],
+      "equipment_choices": [
+        [111, 130]
+      ],
+      "profesja_wstepna": ["Dworzanin", "Kapitan", "Mistrz zakonny", "Rycerz", "Urzędnik"],
+      "profesja_wyjsciowa": ["Kapitan", "Oficer", "Rycerz", "Uczony"]
+    },
+    "Bard": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5],
+        "SW": [5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 15, 16, 35, 38, 59],
+      "skill_choices": [
+        [69, 69],
+        [86, 93, 92]
+      ],
+      "talents": [25, 50],
+      "equipment": [49, 30],
+      "profesja_wstepna": ["Cyrkowiec"],
+      "profesja_wyjsciowa": ["Demagog", "Rozbójnik", "Szarlatan", "Szpieg", "Żak"]
+    },
+    "Biczownik": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [18, 29, 38, 83, 89],
+      "talents": [52, 84],
+      "talent_choices": [
+        [11, 9]
+      ],
+      "equipment": [22, 127, 165],
+      "equipment_choices": [
+        [47, 8]
+      ],
+      "profesja_wstepna": ["Fanatyk", "Kapłan", "Wybraniec boży", "Zakonnik"],
+      "profesja_wyjsciowa": ["Demagog", "Kapłan", "Oprawca", "Weteran", "Żołnierz"]
+    },
+    "Bosman": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [4, 6, 19, 35, 36, 66, 78, 83, 96, 101],
+      "skill_choices": [
+        [69, 69],
+        [86, 88, 90]
+      ],
+      "talents": [4, 39, 42],
+      "equipment": [58],
+      "profesja_wstepna": ["Żeglarz", "Żołnierz okrętowy"],
+      "profesja_wyjsciowa": ["Kapitan", "Kupiec", "Nawigator", "Odkrywca"]
+    },
+    "Demagog": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [2, 4, 5, 26, 28, 35, 38, 59, 65, 66, 69, 83, 91],
+      "talents": [50, 77],
+      "talent_choices": [
+        [4, 25, 33]
+      ],
+      "equipment": [58, 27],
+      "profesja_wstepna": ["Akolita", "Banita", "Bard", "Biczownik", "Herszt banitów", "Kanciarz", "Książę złodziei", "Łowca czarownic", "Łowca wampirów", "Mistrz rzemiosła", "Podżegacz", "Szarlatan", "Urzędnik", "Wybraniec boży", "Zakonnik"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Książę złodziei", "Najemnik", "Urzędnik", "Zakonnik"]
+    },
+    "Dworzanin": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 5, 8, 35, 38, 59, 69, 80, 91],
+      "skill_choices": [
+        [4, 13],
+        [100, 26, 6],
+        [67, 73],
+        [86, 92]
+      ],
+      "talents": [50],
+      "talent_choices": [
+        [6, 20],
+        [30, 16],
+        [72, 25]
+      ],
+      "equipment": [125, 125, 125, 125, 47],
+      "profesja_wstepna": ["Herold", "Rajtar", "Szlachcic", "Urzędnik"],
+      "profesja_wyjsciowa": ["Arystokrata", "Majordomus", "Szarlatan", "Szpieg", "Urzędnik", "Zwadźca"]
+    },
+    "Fechtmistrz": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5, 5, 5],
+        "US": [5, 5, 5, 5, 5, 5, 5, 5],
+        "Odp": [5, 5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1, 1, 1]
+      },
+      "skills": [59, 66, 80, 83],
+      "talents": [5, 54, 60, 69, 78],
+      "talent_choices": [
+        [2, 59],
+        [9, 11, 15, 16]
+      ],
+      "equipment": [31, 58],
+      "profesja_wstepna": ["Łowca czarownic", "Mistrz zakonny", "Skrytobójca", "Strzelec", "Szampierz", "Weteran", "Zwadźca"],
+      "profesja_wyjsciowa": ["Łowca czarownic", "Sierżant", "Skrytobójca", "Zwiadowca"]
+    },
+    "Herold": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 5, 8, 24, 26, 35, 38, 59, 62, 69, 80, 91],
+      "skill_choices": [
+        [67, 71, 73],
+        [86, 88, 92]
+      ],
+      "talents": [25, 50, 77],
+      "equipment": [96, 73, 140, 140, 67],
+      "profesja_wstepna": ["Paź", "Posłaniec"],
+      "profesja_wyjsciowa": ["Cyrkowiec", "Dworzanin", "Giermek", "Odkrywca", "Podżegacz", "Urzędnik"]
+    },
+    "Herszt banitów": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [4, 8, 53, 56, 57, 59, 61, 65, 69, 79, 99],
+      "skill_choices": [
+        [51, 52]
+      ],
+      "talents": [5, 54, 60, 78, 79],
+      "equipment": [48, 58, 43, 118, 143, 173],
+      "equipment_choices": [
+        [163, 59],
+        [123, 4]
+      ],
+      "profesja_wstepna": ["Demagog", "Książę złodziei", "Leśny duch", "Mistrz cieni", "Oficer", "Reketer", "Rozbójnik", "Skrytobójca", "Weteran", "Zwiadowca"],
+      "profesja_wyjsciowa": ["Demagog", "Książę złodziei", "Oficer", "Skrytobójca"]
+    },
+    "Inżynier": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 40, 59, 76, 94, 102, 103],
+      "skill_choices": [
+        [37, 8],
+        [73]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [80, 12]
+      ],
+      "equipment": [58, 167, 168, 168, 168, 168, 168, 168],
+      "profesja_wstepna": ["Górnik", "Mistrz rzemiosła", "Rzemieślnik", "Żak"],
+      "profesja_wyjsciowa": ["Mistrz gildii", "Mistrz rzemiosła", "Odkrywca", "Przemytnik", "Rajtar"]
+    },
+    "Kapitan": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [4, 36, 59, 63, 66, 96, 99, 104],
+      "skill_choices": [
+        [101],
+        [69, 69, 69],
+        [86, 86, 86]
+      ],
+      "talents": [39, 51, 52],
+      "talent_choices": [
+        [78, 7],
+        [16]
+      ],
+      "equipment": [111, 58, 169, 170],
+      "profesja_wstepna": ["Arystokrata", "Bosman", "Nawigator", "Odkrywca"],
+      "profesja_wyjsciowa": ["Arystokrata", "Odkrywca", "Szpieg", "Uczony"]
+    },
+    "Kapłan": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5],
+        "Int": [5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1],
+        "Mag": [1]
+      },
+      "skills": [3, 9, 18, 29, 35, 38, 58, 59, 81],
+      "skill_choices": [
+        [8, 36],
+        [22],
+        [69, 69],
+        [86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [81],
+        [36, 47],
+        [73, 77]
+      ],
+      "equipment": [171, 106],
+      "profesja_wstepna": ["Akolita", "Biczownik", "Zakonnik"],
+      "profesja_wyjsciowa": ["Biczownik", "Majordomus", "Uczony", "Wybraniec boży"]
+    },
+    "Karczmarz": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [19, 35, 38, 43, 59, 62, 69, 80],
+      "skill_choices": [
+        [3, 85],
+        [5, 105],
+        [86, 88, 91, 92]
+      ],
+      "talents": [47],
+      "talent_choices": [
+        [25, 33],
+        [72, 4]
+      ],
+      "equipment": [172],
+      "profesja_wstepna": ["Mieszczanin", "Sługa"],
+      "profesja_wyjsciowa": ["Banita", "Kupiec", "Mieszczanin", "Paser", "Przemytnik"]
+    },
+    "Książę złodziei": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [4, 35, 38, 52, 56, 59, 62, 66, 69, 80, 83, 107],
+      "talents": [27, 33, 44, 50, 58],
+      "talent_choices": [
+        [82, 13],
+        [72, 30]
+      ],
+      "equipment": [140, 91, 174],
+      "equipment_choices": [
+        [60, 4],
+        [159]
+      ],
+      "profesja_wstepna": ["Demagog", "Herszt banitów", "Majordomus", "Mistrz cieni", "Mistrz gildii", "Paser", "Urzędnik", "Włamywacz"],
+      "profesja_wyjsciowa": ["Demagog", "Herszt banitów", "Mistrz cieni", "Urzędnik"]
+    },
+    "Kupiec": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 8, 35, 37, 38, 54, 62, 69, 80, 91],
+      "skill_choices": [
+        [106],
+        [86, 87, 88, 90]
+      ],
+      "talents": [26],
+      "talent_choices": [
+        [72, 33]
+      ],
+      "equipment": [],
+      "profesja_wstepna": ["Bosman", "Karczmarz", "Majordomus", "Mieszczanin", "Mistrz rzemiosła", "Odkrywca", "Oficer", "Rybak", "Rzecznik rodu", "Rzemieślnik", "Uczony"],
+      "profesja_wyjsciowa": ["Mistrz gildii", "Ochotnik", "Reketer", "Szpieg", "Urzędnik"]
+    },
+    "Leśny duch": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [30, 50, 55, 57, 59, 60, 61, 64, 65, 66, 82, 83, 105],
+      "talents": [5, 54, 60, 78, 79, 79],
+      "talent_choices": [
+        [61, 2]
+      ],
+      "equipment": [19, 123, 121],
+      "profesja_wstepna": ["Zwiadowca"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Łowca wampirów", "Oficer", "Strzelec"]
+    },
+    "Łowca czarownic": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5],
+        "US": [5, 5, 5, 5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [4, 8, 27, 29, 35, 38, 39, 57, 59, 69, 83, 108],
+      "skill_choices": [
+        [86]
+      ],
+      "talents": [27, 46, 50, 52, 58, 78],
+      "talent_choices": [
+        [82],
+        [15],
+        [17],
+        [59, 55]
+      ],
+      "equipment": [60, 4, 10, 90, 154, 69],
+      "profesja_wstepna": ["Arcykapłan", "Fechtmistrz", "Łowca wampirów", "Mistrz zakonny", "Skrytobójca", "Szampierz", "Wybraniec boży"],
+      "profesja_wyjsciowa": ["Akolita", "Demagog", "Fechtmistrz", "Mistrz zakonny", "Oficer"]
+    },
+    "Łowca wampirów": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [39, 57, 59, 61, 64, 65, 66, 69, 79, 89],
+      "skill_choices": [
+        [26, 108]
+      ],
+      "talents": [28, 36, 46, 52],
+      "talent_choices": [
+        [82],
+        [54, 5]
+      ],
+      "equipment": [61, 4, 153, 175, 176, 176, 176, 176],
+      "profesja_wstepna": ["Hiena cmentarna", "Leśny duch", "Łowca nagród", "Rycerz", "Strażnik pól", "Zwiadowca"],
+      "profesja_wyjsciowa": ["Akolita", "Demagog", "Łowca czarownic", "Rycerz", "Strzelec"]
+    },
+    "Majordomus": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Int": [5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 4, 8, 28, 35, 38, 39, 59, 62, 69, 80, 83, 91, 106],
+      "talents": [26, 50],
+      "equipment": [125, 125, 106],
+      "profesja_wstepna": ["Dworzanin", "Kapłan", "Paź", "Uczony", "Urzędnik"],
+      "profesja_wyjsciowa": ["Książę złodziei", "Kupiec", "Paser", "Szlachcic"]
+    },
+    "Medyk": {
+      "advances": {
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 18, 20, 35, 41, 59, 89, 109],
+      "talents": [21, 42, 47],
+      "equipment": [74, 74, 74, 74, 83],
+      "profesja_wstepna": ["Cyrulik", "Oprawca", "Uczony", "Żak"],
+      "profesja_wyjsciowa": ["Mistrz gildii", "Szpieg", "Uczony", "Zakonnik"]
+    },
+    "Mistrz cieni": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5, 5, 5, 5, 5],
+        "Int": [5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [2, 3, 33, 35, 36, 38, 39, 52, 56, 57, 59, 65, 66, 79, 80, 85],
+      "skill_choices": [
+        [6, 105]
+      ],
+      "talents": [33, 68],
+      "talent_choices": [
+        [4, 7],
+        [82],
+        [15]
+      ],
+      "equipment": [60, 4, 149, 110, 146, 69],
+      "equipment_choices": [
+        [137, 76, 90]
+      ],
+      "profesja_wstepna": ["Książę złodziei", "Paser", "Reketer", "Rozbójnik", "Szpieg", "Włamywacz"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Książę złodziei", "Odkrywca", "Strzelec"]
+    },
+    "Mistrz gildii": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1]
+      },
+      "skills": [4, 26, 35, 38, 54, 59, 62, 69, 80, 91],
+      "skill_choices": [
+        [42, 42],
+        [86, 87, 88, 90]
+      ],
+      "talents": [25, 49, 72],
+      "equipment": [106, 178, 179],
+      "profesja_wstepna": ["Arcymag", "Inżynier", "Kupiec", "Medyk", "Mistrz rzemiosła"],
+      "profesja_wyjsciowa": ["Książę złodziei", "Reketer", "Urzędnik"]
+    },
+    "Mistrz magii": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1],
+        "Mag": [1, 1, 1]
+      },
+      "skills": [3, 9, 27, 58, 81],
+      "skill_choices": [
+        [97, 98],
+        [22, 22],
+        [35, 8],
+        [38, 83],
+        [69, 69],
+        [86, 86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [75, 45],
+        [24, 36],
+        [76, 76],
+        [71, 74]
+      ],
+      "equipment": [177, 166, 166],
+      "profesja_wstepna": ["Wędrowny czarodziej"],
+      "profesja_wyjsciowa": ["Arcymag", "Odkrywca", "Uczony"]
+    },
+    "Mistrz rzemiosła": {
+      "advances": {
+        "US": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1, 1]
+      },
+      "skills": [35, 37, 54, 59, 62, 80],
+      "skill_choices": [
+        [42, 42, 42],
+        [86, 94, 92]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [83, 25]
+      ],
+      "equipment": [85],
+      "profesja_wstepna": ["Inżynier", "Nawigator", "Ochotnik", "Rzemieślnik"],
+      "profesja_wyjsciowa": ["Demagog", "Inżynier", "Kupiec", "Mistrz gildii", "Ochotnik"]
+    },
+    "Mistrz zakonny": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5, 5],
+        "US": [5, 5],
+        "K": [5, 5, 5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1, 1, 1]
+      },
+      "skills": [3, 4, 8, 29, 38, 53, 59, 63, 66, 99],
+      "skill_choices": [
+        [24, 29],
+        [51, 110],
+        [69, 69, 69],
+        [86, 87, 88, 92]
+      ],
+      "talents": [13, 16, 25, 36, 39, 46, 47, 78],
+      "equipment": [107, 154, 127],
+      "equipment_choices": [
+        [111, 130]
+      ],
+      "profesja_wstepna": ["Łowca czarownic", "Rycerz"],
+      "profesja_wyjsciowa": ["Arystokrata", "Fechtmistrz", "Łowca czarownic", "Oficer"]
+    },
+        "Nawigator": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 21, 30, 36, 59, 89, 104],
+      "skill_choices": [
+        [69, 69]
+      ],
+      "talents": [67],
+      "equipment": [138, 138, 138, 138, 138, 138, 167],
+      "profesja_wstepna": ["Bosman", "Flisak", "Rybak", "Skryba", "Żeglarz"],
+      "profesja_wyjsciowa": ["Kapitan", "Mistrz rzemiosła", "Odkrywca", "Uczony"]
+    },
+    "Odkrywca": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [3, 4, 8, 30, 36, 37, 51, 55, 59, 60, 61, 79, 80, 104],
+      "skill_choices": [
+        [26, 28],
+        [69, 69, 69],
+        [86, 86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [39],
+        [67, 49]
+      ],
+      "equipment": [10, 31, 58, 135, 43, 118, 143, 138, 138, 138, 138, 138, 138],
+      "equipment_choices": [
+        [163, 59],
+        [123, 4]
+      ],
+      "profesja_wstepna": ["Arcymag", "Bosman", "Herold", "Inżynier", "Kapitan", "Mistrz cieni", "Mistrz magii", "Nawigator", "Oficer", "Szpieg", "Uczony", "Zwiadowca"],
+      "profesja_wyjsciowa": ["Kapitan", "Kupiec", "Oficer", "Szpieg"]
+    },
+    "Oficer": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5, 5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1, 1]
+      },
+      "skills": [3, 4, 8, 31, 35, 53, 66, 99],
+      "skill_choices": [
+        [69, 69, 69],
+        [88, 92]
+      ],
+      "talents": [78],
+      "talent_choices": [
+        [10, 9],
+        [11, 13],
+        [51, 60]
+      ],
+      "equipment": [153, 135, 43, 118, 143, 180],
+      "equipment_choices": [
+        [47, 159],
+        [46, 8]
+      ],
+      "profesja_wstepna": ["Arystokrata", "Herszt banitów", "Leśny duch", "Łowca czarownic", "Mistrz zakonny", "Odkrywca", "Rycerz", "Sierżant"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Kupiec", "Odkrywca", "Podżegacz", "Urzędnik"]
+    },
+    "Oprawca": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [18, 38, 59, 83, 107],
+      "talents": [11, 27, 69],
+      "equipment": [89, 89, 89, 89, 89, 47, 33, 33, 33],
+      "profesja_wstepna": ["Biczownik", "Cyrulik", "Ochroniarz", "Oprych", "Strażnik więzienny"],
+      "profesja_wyjsciowa": ["Medyk", "Reketer", "Złodziej"]
+    },
+    "Paser": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5],
+        "K": [5, 5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [6, 35, 59, 62, 80, 83, 85],
+      "talents": [26, 47],
+      "talent_choices": [
+        [72, 33]
+      ],
+      "equipment": [188, 106],
+      "profesja_wstepna": ["Hiena cmentarna", "Karczmarz", "Majordomus", "Mieszczanin", "Porywacz zwłok", "Przemytnik", "Reketer", "Śmieciarz", "Włamywacz", "Złodziej"],
+      "profesja_wyjsciowa": ["Książę złodziei", "Mistrz cieni", "Reketer", "Szarlatan"]
+    },
+    "Rajtar": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [8, 31, 51, 59, 66],
+      "skill_choices": [
+        [80, 35]
+      ],
+      "talents": [5, 12, 52, 53, 60, 79],
+      "equipment": [98, 98, 1, 103, 140, 189],
+      "profesja_wstepna": ["Inżynier", "Szlachcic"],
+      "profesja_wyjsciowa": ["Dworzanin", "Rycerz", "Sierżant", "Weteran", "Zwadźca"]
+    },
+    "Reketer": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1]
+      },
+      "skills": [4, 35, 59, 61, 62, 66, 69, 80, 83],
+      "talents": [4, 27, 33, 47, 52],
+      "equipment": [37, 139, 35],
+      "profesja_wstepna": ["Kupiec", "Mistrz gildii", "Ochroniarz", "Oprawca", "Oprych", "Paser", "Rzezimieszek", "Strażnik", "Szpieg", "Urzędnik", "Włamywacz", "Zarządca"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Mistrz cieni", "Paser", "Urzędnik"]
+    },
+    "Rozbójnik": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [8, 31, 35, 38, 57, 63, 69, 80],
+      "talents": [7, 12, 16, 25, 40, 53, 54, 66],
+      "equipment": [98, 98, 1, 103, 125, 36, 72, 43, 118, 143],
+      "profesja_wstepna": ["Banita", "Bard", "Mytnik", "Przepatrywacz", "Przewoźnik", "Strażnik dróg", "Szermierz estalijski", "Woźnica", "Zwadźca"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Mistrz cieni", "Podżegacz", "Sierżant", "Zwadźca"]
+    },
+    "Rycerz": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5],
+        "Int": [5],
+        "SW": [5, 5, 5],
+        "Ogd": [5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [8, 53, 59, 66, 99],
+      "skill_choices": [
+        [24, 29],
+        [86, 86]
+      ],
+      "talents": [9, 10, 11, 52],
+      "equipment": [46, 154, 135, 43, 118, 143, 127],
+      "equipment_choices": [
+        [47, 77]
+      ],
+      "profesja_wstepna": ["Arystokrata", "Giermek", "Łowca wampirów", "Rajtar", "Sierżant"],
+      "profesja_wyjsciowa": ["Akolita", "Arystokrata", "Łowca wampirów", "Mistrz zakonny", "Oficer"]
+    },
+    "Sierżant": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [4, 35, 53, 59, 66, 83, 92, 99],
+      "skill_choices": [
+        [8, 36],
+        [69, 69]
+      ],
+      "talents": [47, 52],
+      "talent_choices": [
+        [4, 69],
+        [27, 39]
+      ],
+      "equipment": [153, 135],
+      "profesja_wstepna": ["Berserker z Norski", "Fechtmistrz", "Giermek", "Kozak kislevski", "Najemnik", "Ochotnik", "Rajtar", "Rozbójnik", "Skrytobójca", "Strażnik", "Strażnik dróg", "Strzelec", "Szampierz", "Tarczownik", "Weteran", "Zwadźca", "Zwiadowca", "Żołnierz", "Żołnierz okrętowy"],
+      "profesja_wyjsciowa": ["Oficer", "Rycerz", "Szampierz", "Zwadźca"]
+    },
+    "Skrytobójca": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5],
+        "US": [5, 5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [2, 35, 52, 57, 59, 61, 65, 79, 109],
+      "talents": [4, 7, 13, 15, 17, 33, 53, 60, 78],
+      "equipment": [117, 90, 90, 90, 90, 51, 69, 181],
+      "profesja_wstepna": ["Fechtmistrz", "Herszt banitów", "Strzelec", "Szampierz", "Szpieg", "Zwadźca"],
+      "profesja_wyjsciowa": ["Fechtmistrz", "Herszt banitów", "Łowca czarownic", "Kanciarz", "Sierżant"]
+    },
+    "Strzelec": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5, 5],
+        "US": [5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [35, 39, 59, 60, 69, 85],
+      "talents": [5, 8, 53, 54, 79],
+      "skill_choices": [
+        [82, 15]
+      ],
+      "equipment": [58],
+      "equipment_choices": [
+        [18, 59],
+        [123, 4]
+      ],
+      "profesja_wstepna": ["Leśny duch", "Łowca", "Łowca nagród", "Łowca wampirów", "Mistrz cieni", "Weteran"],
+      "profesja_wyjsciowa": ["Fechtmistrz", "Sierżant", "Skrytobójca", "Zwadźca"]
+    },
+    "Szampierz": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [59, 66],
+      "talents": [9, 11, 13, 16, 78],
+      "equipment": [8, 69],
+      "equipment_choices": [
+        [47, 77],
+        [111, 130],
+        [107, 66]
+      ],
+      "profesja_wstepna": ["Sierżant", "Weteran"],
+      "profesja_wyjsciowa": ["Fanatyk", "Fechtmistrz", "Łowca czarownic", "Sierżant", "Skrytobójca"]
+    },
+    "Szarlatan": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [2, 5, 6, 35, 38, 56, 59, 62, 80, 85, 91],
+      "skill_choices": [
+        [67, 73],
+        [86, 92]
+      ],
+      "talents": [22, 37, 39, 50],
+      "talent_choices": [
+        [30, 33]
+      ],
+      "equipment": [139, 139, 139, 139, 139, 139, 140, 140, 140, 140, 182, 183, 183, 183, 183, 184, 184, 184, 184],
+      "profesja_wstepna": ["Bard", "Ciura obozowa", "Cyrkowiec", "Dworzanin", "Guślarz", "Kanciarz", "Paser", "Podżegacz", "Przemytnik", "Rzecznik rodu", "Wędrowny czarodziej", "Złodziej"],
+      "profesja_wyjsciowa": ["Banita", "Demagog", "Szpieg", "Urzędnik", "Włamywacz"]
+    },
+    "Szpieg": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [2, 13, 33, 35, 38, 57, 61, 65, 85, 105],
+      "skill_choices": [
+        [54],
+        [69, 69],
+        [86, 86, 86]
+      ],
+      "talents": [22, 30, 49],
+      "talent_choices": [
+        [20, 58]
+      ],
+      "equipment": [185, 186, 186, 186, 186],
+      "profesja_wstepna": ["Bard", "Ciura obozowa", "Dworzanin", "Kapitan", "Kupiec", "Medyk", "Odkrywca", "Sługa", "Szarlatan"],
+      "profesja_wyjsciowa": ["Mistrz cieni", "Odkrywca", "Reketer", "Skrytobójca"]
+    },
+    "Uczony": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 59, 89],
+      "skill_choices": [
+        [22, 22, 22],
+        [69, 69, 69],
+        [80, 104],
+        [86, 86, 86]
+      ],
+      "talents": [49],
+      "equipment": [106],
+      "profesja_wstepna": ["Arcykapłan", "Arystokrata", "Kapitan", "Kapłan", "Medyk", "Mistrz magii", "Nawigator", "Skryba", "Uczeń czarodzieja", "Wędrowny czarodziej", "Wybraniec boży", "Zakonnik", "Żak"],
+      "profesja_wyjsciowa": ["Kupiec", "Majordomus", "Medyk", "Odkrywca", "Uczeń czarodzieja", "Zakonnik"]
+    },
+    "Urzędnik": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [3, 4, 5, 13, 28, 35, 38, 59, 62, 69, 80, 91],
+      "skill_choices": [
+        [26, 24]
+      ],
+      "talents": [77, 50],
+      "talent_choices": [
+        [25, 33],
+        [72, 30]
+      ],
+      "equipment": [10, 58, 187],
+      "profesja_wstepna": ["Arcykapłan", "Chłop", "Demagog", "Dworzanin", "Herold", "Książę złodziei", "Kupiec", "Mistrz gildii", "Mytnik", "Oficer", "Podżegacz", "Reketer", "Szarlatan", "Szlachcic", "Zarządca"],
+      "profesja_wyjsciowa": ["Arystokrata", "Demagog", "Dworzanin", "Książę złodziei", "Majordomus", "Reketer"]
+    },
+    "Weteran": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [6, 19, 35, 53, 59, 66, 69, 83],
+      "talents": [],
+      "talent_choices": [
+        [5, 36],
+        [9, 11, 15, 16],
+        [38, 1],
+        [54, 52]
+      ],
+      "equipment": [153, 22],
+      "profesja_wstepna": ["Banita", "Berserker z Norski", "Biczownik", "Giermek", "Gladiator", "Goniec", "Kozak kislevski", "Najemnik", "Rajtar", "Tarczownik", "Wojownik klanowy", "Żołnierz"],
+      "profesja_wyjsciowa": ["Fechtmistrz", "Herszt banitów", "Sierżant", "Strzelec", "Szampierz"]
+    },
+    "Wędrowny czarodziej": {
+      "advances": {
+        "WW": [5],
+        "US": [5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1, 1],
+        "Mag": [1, 1]
+      },
+      "skills": [3, 9, 27, 35, 58, 81],
+      "skill_choices": [
+        [8, 36],
+        [22],
+        [38, 83],
+        [69, 69],
+        [86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [24, 38],
+        [76, 76],
+        [74, 36],
+        [71, 75]
+      ],
+      "equipment": [54, 106],
+      "profesja_wstepna": ["Uczeń czarodzieja"],
+      "profesja_wyjsciowa": ["Mistrz magii", "Szarlatan", "Uczony"]
+    },
+    "Włamywacz": {
+      "advances": {
+        "WW": [5, 5],
+        "US": [5, 5],
+        "K": [5],
+        "Odp": [5],
+        "Zr": [5, 5, 5, 5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5],
+        "Ogd": [5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [33, 35, 39, 52, 56, 57, 59, 62, 65, 79, 80],
+      "talents": [4, 33, 62, 68],
+      "equipment": [149, 69, 51],
+      "profesja_wstepna": ["Porywacz zwłok", "Szarlatan", "Szczurołap", "Śmieciarz", "Złodziej"],
+      "profesja_wyjsciowa": ["Książę złodziei", "Mistrz cieni", "Paser", "Reketer", "Włóczykij"]
+    },
+    "Wybraniec boży": {
+      "advances": {
+        "WW": [5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5, 5, 5],
+        "Ogd": [5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1],
+        "Mag": [1, 1]
+      },
+      "skills": [9, 18, 29, 35, 38, 58, 81],
+      "skill_choices": [
+        [8, 36],
+        [22, 22],
+        [69, 69],
+        [86, 86]
+      ],
+      "talents": [],
+      "talent_choices": [
+        [81],
+        [76, 76],
+        [39, 52],
+        [73, 24],
+        [71, 74]
+      ],
+      "equipment": [],
+      "equipment_choices": [
+        [129, 125]
+      ],
+      "profesja_wstepna": ["Kapłan"],
+      "profesja_wyjsciowa": ["Arcykapłan", "Biczownik", "Demagog", "Łowca czarownic", "Uczony"]
+    },
+    "Zabójca demonów": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5, 5, 5, 5],
+        "K": [5, 5, 5, 5, 5, 5],
+        "Odp": [5, 5, 5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "SW": [5, 5, 5, 5, 5, 5],
+        "A": [1, 1],
+        "Żyw": [1, 1, 1, 1, 1, 1, 1, 1]
+      },
+      "skills": [19, 66, 79, 83],
+      "skill_choices": [
+        [69, 69]
+      ],
+      "talents": [78, 85],
+      "equipment": [8],
+      "profesja_wstepna": ["Zabójca olbrzymów"],
+      "profesja_wyjsciowa": ["Chwalebna śmierć!"]
+    },
+    "Zabójca olbrzymów": {
+      "advances": {
+        "WW": [5, 5, 5, 5, 5],
+        "US": [5, 5, 5],
+        "K": [5, 5, 5],
+        "Zr": [5, 5],
+        "Int": [5, 5],
+        "SW": [5, 5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [19, 59, 66, 83],
+      "skill_choices": [
+        [22]
+      ],
+      "talents": [11, 36, 44, 84],
+      "equipment": [8],
+      "profesja_wstepna": ["Zabójca trolli"],
+      "profesja_wyjsciowa": ["Zabójca demonów"]
+    },
+    "Zakonnik": {
+      "advances": {
+        "WW": [5, 5],
+        "K": [5],
+        "Odp": [5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5, 5],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [18, 29, 31, 59, 60, 89, 91],
+      "skill_choices": [
+        [69, 69],
+        [86, 87, 88, 92]
+      ],
+      "talents": [39],
+      "equipment": [129, 74, 127, 165],
+      "profesja_wstepna": ["Akolita", "Demagog", "Fanatyk", "Medyk", "Uczony", "Włóczykij"],
+      "profesja_wyjsciowa": ["Biczownik", "Demagog", "Kapłan", "Uczony"]
+    },
+    "Zwadźca": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5, 5, 5],
+        "Zr": [5, 5, 5, 5],
+        "Int": [5, 5, 5],
+        "SW": [5, 5, 5],
+        "Ogd": [5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1]
+      },
+      "skills": [6, 35, 38, 59, 66, 83, 85],
+      "talents": [7, 12, 13, 16, 25, 36, 52, 53, 54, 60],
+      "talent_choices": [
+        [40, 51]
+      ],
+      "equipment": [66, 98, 1, 103, 111],
+      "profesja_wstepna": ["Dworzanin", "Rajtar", "Rozbójnik", "Rzezimieszek", "Sierżant", "Strzelec", "Szermierz estalijski"],
+      "profesja_wyjsciowa": ["Fechtmistrz", "Kanciarz", "Rozbójnik", "Sierżant", "Skrytobójca"]
+    },
+    "Zwiadowca": {
+      "advances": {
+        "WW": [5, 5, 5, 5],
+        "US": [5, 5, 5, 5],
+        "K": [5, 5],
+        "Odp": [5, 5],
+        "Zr": [5, 5, 5],
+        "Int": [5, 5, 5, 5],
+        "SW": [5, 5, 5],
+        "A": [1],
+        "Żyw": [1, 1, 1, 1, 1, 1]
+      },
+      "skills": [8, 30, 31, 32, 51, 55, 57, 59, 61, 65, 66],
+      "skill_choices": [
+        [69, 69],
+        [86, 86]
+      ],
+      "talents": [5, 67],
+      "talent_choices": [
+        [8, 82],
+        [54, 79]
+      ],
+      "equipment": [31, 58, 135, 43, 118, 143, 69],
+      "profesja_wstepna": ["Fechtmistrz", "Goniec", "Górnik", "Leśnik", "Łowca", "Łowca nagród", "Posłaniec", "Przepatrywacz", "Strażnik dróg", "Strażnik pól", "Węglarz", "Włóczykij", "Wojownik klanowy", "Woźnica"],
+      "profesja_wyjsciowa": ["Herszt banitów", "Leśny duch", "Łowca wampirów", "Odkrywca", "Sierżant"]
+    }
+  }
+}
