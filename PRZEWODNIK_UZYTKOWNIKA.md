@@ -1,32 +1,4 @@
-Pewnie! Oto odświeżona i bardziej przejrzysta wersja całej dokumentacji, z ulepszonym formatowaniem i dodanymi zrzutami ekranu dla każdej funkcji.
-
-***
-
-# Dokumentacja Projektu: Generator Postaci Warhammer
-
-## 1. Instalacja i Uruchomienie
-
-Aby rozpocząć pracę z generatorem, postępuj zgodnie z poniższymi krokami, aby szybko i sprawnie przygotować aplikację do działania.
-
-1.  **Pobierz Aplikację**
-    Upewnij się, że masz wszystkie pliki projektu na swoim komputerze.
-
-2.  **Zainstaluj Środowisko Python**
-    Aplikacja wymaga zainstalowanego Pythona do poprawnego działania.
-
-3.  **Zainstaluj Wymaganą Bibliotekę**
-    Otwórz terminal lub wiersz poleceń i zainstaluj bibliotekę `PyQt6` za pomocą menedżera pakietów pip:
-    ```bash
-    pip install PyQt6
-    ```
-
-4.  **Uruchom Aplikację**
-    W głównym folderze projektu wykonaj następującą komendę:
-    ```bash
-    python main.py
-    ```
-
-## 2. Przewodnik Użytkownika
+## 1. Przewodnik Użytkownika
 
 ### Okno Startowe: Kreator Postaci
 
@@ -50,12 +22,11 @@ Po stworzeniu lub wczytaniu bohatera, przejdziesz do jego głównej karty – ce
 
 Ekran ten gromadzi wszystkie niezbędne informacje:
 *   **Tożsamość i Wygląd:** Kluczowe dane definiujące Twojego bohatera.
-*   **Cechy Główne i Drugorzędne:** Wszystkie atrybuty bojowe i pomocnicze.
+*   **Cechy Główne i Drugorzędne:** Wszystkie dostępne statyski i ich wartości.
 *   **Umiejętności i Zdolności:** Zestawienie tego, co Twoja postać potrafi.
-*   **Ekwipunek i Zasoby:** Twój dobytek – od złota po posiadany sprzęt.
-*   **Wizualizacja Postaci:** Możesz spersonalizować kartę, dodając **zdjęcie bohatera** oraz **grafiki dla każdego przedmiotu** w ekwipunku.
+*   **Ekwipunek** Twoje Wyposażenie (możesz spersonalizować ekwipunek dodajac do poszczegolnych itemów grafike)
 
-### Panel Akcji: Dynamiczne Zarządzanie Postacią
+### Panel Zarządzania Postacią
 
 Na dole ekranu znajduje się panel z przyciskami, który pozwala aktywnie zarządzać i rozwijać Twojego bohatera w trakcie rozgrywki.
 
@@ -91,6 +62,6 @@ Na dole ekranu znajduje się panel z przyciskami, który pozwala aktywnie zarzą
     Zapisuje wszystkie postępy – zdobyte doświadczenie, nowy ekwipunek i rozwinięte statystyki. Dzięki temu możesz bezpiecznie zakończyć grę i wrócić do niej później.
     ![Okno Zapisu Postaci](photos/save_window.png)
 
-*   **Wczytaj / Nowa**
-    Przenosi Cię z powrotem do okna startowego, gdzie możesz wczytać inną postać lub rozpocząć tworzenie zupełnie nowego bohatera bez potrzeby restartowania aplikacji.
+*   **Wczytaj**
+    Przenosi Cię z do okna Wczytania Postaci, gdzie możesz wczytać swój save lub inna postac jeżeli realizujesz kilka kampani na raz.
     ![Okno Wczytywania Postaci](photos/load_window.png)
