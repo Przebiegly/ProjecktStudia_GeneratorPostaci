@@ -1,7 +1,7 @@
 import json
 import random
 
-
+#Wczytuje i zwraca dane z pliku JSON
 def load_data(filename="database/database.json"):
     try:
         with open(filename, "r", encoding="utf-8") as f:
@@ -13,15 +13,15 @@ def load_data(filename="database/database.json"):
         print(f"BŁĄD: Plik '{filename}' zawiera błąd w formacie JSON: {e}")
         return None
 
-
+#Symuluje rzut kosicią (zakres kosci od 1 do 10)
 def roll_d10():
     return random.randint(1, 10)
 
-
+#Symuluje rzut dwiema kosicmi i zwraca ich sume (zakres kosci od 1 do 10)
 def roll_2d10():
     return random.randint(1, 10) + random.randint(1, 10)
 
-
+#Symuluje rzut kosicią (zakres kosci od 1 do 100)
 def roll_d100():
     return random.randint(1, 100)
 
@@ -32,16 +32,16 @@ def find_in_range_table(table, roll):
             return entry
     return None
 
-
+#Losowo wybiera jedną rasę z dostępnej puli
 def choose_race(races_data):
     return random.choice(list(races_data.keys()))
 
-
+# Generuje początkowe cechy główne postaci na podstawie wartości rasowych i sumy 2 rzutów koscia z zakresu od 1 do 10
 def generate_primary_stats(race_data):
     base_stats = race_data["base_stats"]
     return {stat: base + roll_2d10() for stat, base in base_stats.items()}
 
-
+# Oblicza cechy drugorzędne na podstawie cech głównych i danych zaspisanych w database
 def generate_secondary_stats(race_data, primary_stats):
     secondary_stats = race_data["secondary_stats"].copy()
     secondary_stats["Żyw"] = find_in_range_table(
@@ -54,7 +54,7 @@ def generate_secondary_stats(race_data, primary_stats):
     secondary_stats["Wt"] = primary_stats["Odp"] // 10
     return secondary_stats
 
-
+# Losuje szczegóły wyglądu postaci, takie jak wzrost, waga, kolor oczu i włosów
 def generate_appearance(race_data, gender, general_tables):
     details = race_data["physical_details"]
     base_height = (
@@ -80,7 +80,7 @@ def generate_appearance(race_data, gender, general_tables):
         )["mark"],
     }
 
-
+# Losuje szczegóły osobowe postaci, w tym imię, wiek i miejsce urodzenia
 def generate_personal_details(race_data, gender, general_tables):
     gender_key = "male" if gender == "Mężczyzna" else "female"
     return {
@@ -99,7 +99,7 @@ def generate_personal_details(race_data, gender, general_tables):
         ],
     }
 
-
+# Tworzy losowe miejsce urodzenia dla człowieka, łącząc typ osady z prowincją (funkcja pomocnicza)
 def generate_human_birthplace(human_birthplaces_data):
     provinces = human_birthplaces_data.get(
         "provinces", [{"roll": 0, "name": "Nieznana Prowincja"}]
@@ -117,7 +117,7 @@ def generate_human_birthplace(human_birthplaces_data):
     )
     return f"{settlement} w prowincji {province}"
 
-
+# Generuje miejsce urodzenia dla odpowiedniej klasy
 def generate_birthplace(race_data, general_tables):
     if race_data.get("name") == "Człowiek":
         return generate_human_birthplace(general_tables["human_birthplaces"])
@@ -132,7 +132,7 @@ def generate_birthplace(race_data, general_tables):
         else place
     )
 
-
+# Sprawdza i zapisuje umiejętności i zdolności dla postaci (wynikajace z classy postaci)
 def get_racial_abilities(race_data):
     abilities = race_data["skills_and_talents"]
     skill_ids = set(abilities.get("skills", []))
@@ -148,7 +148,7 @@ def get_racial_abilities(race_data):
                 talent_ids.add(entry["talent_id"])
     return {"skill_ids": skill_ids, "talent_ids": talent_ids}
 
-
+# losuje profesje startowa ( przy okazji zapisuje tez umiejętności i zdolności oraz ekwipunek)
 def assign_profession(race_name, game_data):
     prof_entry = None
     profession_table = game_data["race_profession_tables"][race_name]
@@ -175,7 +175,7 @@ def assign_profession(race_name, game_data):
         "equipment_ids": equipment_ids,
     }
 
-
+# Główna funkcja, która wywołuje wszystkie powyższe by stworzyc kompletna postac
 def create_character():
     game_data = load_data()
     if not game_data:

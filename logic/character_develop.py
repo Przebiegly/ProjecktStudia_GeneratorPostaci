@@ -1,3 +1,5 @@
+
+
 def get_profession_details(profession_name: str, game_data: dict) -> dict:
     if profession_name in game_data.get("base_class", {}):
         return game_data["base_class"][profession_name]
@@ -5,7 +7,7 @@ def get_profession_details(profession_name: str, game_data: dict) -> dict:
         return game_data["advanced_class"][profession_name]
     return {}
 
-
+# Tłumaczy identyfikatory (ID) z danych profesji na pełne, czytelne nazwy umiejętności, zdolności i ekwipunku ( sa one tez w .json tylko w osobnym miejscu).
 def get_full_profession_data(profession_name: str, game_data: dict) -> dict:
 
     skill_map = {s["id"]: s["name"] for s in game_data["skills"]}
@@ -50,7 +52,7 @@ def get_full_profession_data(profession_name: str, game_data: dict) -> dict:
         "equipment_choices": equipment_choices,
     }
 
-
+# Porównuje posiadane przez postać atrybuty z nową profesją, aby wyliczyć tylko te, które postać zyska.
 def get_profession_preview_data(
     character: "Character", new_profession_name: str, game_data: dict) -> dict:
 
@@ -81,7 +83,7 @@ def get_profession_preview_data(
         "new_equipment_choices": new_prof_data["equipment_choices"],
     }
 
-
+# Obsługuje logikę wydawania 100 PD na wykupienie jednego rozwinięcia cechy ze schematu profesji.
 def purchase_advance(character: "Character", stat_key: str) -> bool:
     if not character or character.xp < 100:
         return False
@@ -108,7 +110,7 @@ def purchase_advance(character: "Character", stat_key: str) -> bool:
 
     return True
 
-
+# Sprawdza, czy postać wykupiła wszystkie dostępne rozwinięcia (jest to warunkiem zmiany profesji.)
 def are_all_advances_purchased(character: "Character") -> bool:
     if not character:
         return False
@@ -117,7 +119,7 @@ def are_all_advances_purchased(character: "Character") -> bool:
             return False
     return True
 
-
+# Finalizuje proces zmiany profesji postaci, aktualizując jej atrybuty, odejmując PD i resetując schemat rozwoju.
 def change_character_profession(
     character: "Character", new_profession: str, game_data: dict, choices: dict) -> bool:
 

@@ -16,13 +16,10 @@ class Character:
         self.umiejetnosci = character_data.get('umiejetnosci', [])
         self.zdolnosci = character_data.get('zdolnosci', [])
 
-        # ### ZMIANA: Obsługa nowego i starego formatu ekwipunku dla kompatybilności ###
         ekwipunek_data = character_data.get('ekwipunek', [])
-        if ekwipunek_data and isinstance(ekwipunek_data[0], str):
-            # Konwersja ze starego formatu (lista stringów) do nowego
-            self.ekwipunek = [{'name': name, 'icon_path': ''} for name in ekwipunek_data]
+        if ekwipunek_data and isinstance(ekwipunek_data[ 0 ] , str):
+            self.ekwipunek = [ { 'name': name , 'icon_path': '' } for name in ekwipunek_data ]
         else:
-            # Nowy format (lista słowników) jest już poprawny
             self.ekwipunek = ekwipunek_data
 
         self.xp = character_data.get('xp', 0)
@@ -36,7 +33,7 @@ class Character:
 
 
     def to_dict(self) -> dict:
-        """Konwertuje obiekt postaci z powrotem na słownik w celu zapisu."""
+        #Konwertuje obiekt postaci z powrotem na słownik w celu zapisu.
         return {
             'rasa': self.rasa,
             'plec': self.plec,

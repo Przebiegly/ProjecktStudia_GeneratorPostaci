@@ -256,7 +256,7 @@ class MainWindow(QWidget):
         btn_learn = QPushButton("Nauka")
         btn_buy = QPushButton("Kup Ekwipunek")
         btn_save = QPushButton("Zapisz Postać")
-        btn_load = QPushButton("Wczytaj / Nowa")
+        btn_load = QPushButton("Wczytaj")
         btn_add.clicked.connect(self.connector.show_add_xp_gold_window)
         btn_buy.clicked.connect(self.connector.show_buy_items_window)
         btn_dev.clicked.connect(self.connector.show_develop_window)

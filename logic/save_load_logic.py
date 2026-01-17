@@ -9,11 +9,11 @@ import uuid
 
 SAVE_DIR = "saves"
 
-
+#Upewnia się, że folder na zapisy istnieje. Jeśli nie, tworzy go.
 def ensure_save_directory():
     os.makedirs(SAVE_DIR, exist_ok=True)
 
-
+# Zapisuje dane postaci do pliku JSON. Dba również o skopiowanie portretu  oraz ikon przedmiotów do folderu z zapisami, nadając im unikalne nazwy.
 def save_character(character_data: dict, filename: str) -> bool:
     ensure_save_directory()
     safe_filename = "".join(
@@ -65,7 +65,7 @@ def save_character(character_data: dict, filename: str) -> bool:
         print(f"Błąd zapisu do pliku: {e}")
         return False
 
-
+# Przeszukuje folder z zapisami, sortuje pliki JSON od najnowszego  i zwraca listę z nazwami zapisów oraz ich datami modyfikacji.
 def list_saves() -> list[dict]:
     ensure_save_directory()
     saves_with_dates = []
@@ -89,7 +89,7 @@ def list_saves() -> list[dict]:
         print(f"Błąd odczytu folderu z zapisami: {e}")
         return []
 
-
+#słuzy do załadowania sava
 def load_character_data(filename: str) -> dict | None:
     filepath = os.path.join(SAVE_DIR, f"{filename}.json")
     try:
@@ -114,7 +114,7 @@ def load_character_data(filename: str) -> dict | None:
         print(f"Błąd wczytywania pliku {filepath}: {e}")
         return None
 
-
+#usuwanie savów
 def delete_save(filename: str) -> bool:
     try:
         pattern = os.path.join(SAVE_DIR, f"{filename}*")

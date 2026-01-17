@@ -1,5 +1,7 @@
 from .character_auto_generator import load_data
 
+# Słownik definiujący kategorie sklepu oraz słowa kluczowe używane
+# do automatycznego przypisywania przedmiotów do odpowiednich grup.
 CATEGORIES = {
     "Broń Biała": [
         "broń jednoręczna",
@@ -104,7 +106,7 @@ CATEGORIES = {
     ],
 }
 
-
+# Przetwarza listę wszystkich przedmiotów z bazy danych, kategoryzuje je na podstawie zdefiniowanych słów kluczowych
 def get_categorized_items() -> dict:
     game_data = load_data()
     if not game_data or "items" not in game_data:
@@ -143,7 +145,7 @@ def get_categorized_items() -> dict:
 
     return final_categories
 
-
+# Funkcja realizująca zakup przedmiotu: sprawdza, czy postać ma wystarczająco złota, odejmuje koszt i dodaje przedmiot do ekwipunku postaci.
 def buy_item(character: "Character", item_name: str, item_cost: int) -> bool:
     if not character or float(character.gold) < item_cost:
         return False

@@ -1,11 +1,11 @@
 from .character_auto_generator import load_data, generate_human_birthplace
 
-
+# Zwraca listę wszystkich dostępnych ras postaci z bazy danych i zwraca je w liscie
 def get_race_options():
     game_data = load_data()
     return list(game_data["races"].keys()) if game_data else []
 
-
+# Zwraca  listę profesji dostępnych dla wybranej rasy
 def get_professions_for_race(race_name: str):
     game_data = load_data()
     if not game_data or race_name not in game_data.get("race_profession_tables", {}):
@@ -15,7 +15,7 @@ def get_professions_for_race(race_name: str):
     }
     return sorted(list(professions))
 
-
+# Zwraca listę imion odpowiednich dla wybranej rasy i płci.
 def get_names_for_race_and_gender(race_name: str, gender: str):
     game_data = load_data()
     race_data = game_data["races"].get(race_name)
@@ -26,7 +26,7 @@ def get_names_for_race_and_gender(race_name: str, gender: str):
         list({entry["name"] for entry in race_data["names"].get(gender_key, [])})
     )
 
-
+# Zwraca dostępne kolory włosów i oczu dla wybranej rasy.
 def get_appearance_options_for_race(race_name: str):
     game_data = load_data()
     if not game_data or race_name not in game_data["races"]:
@@ -37,7 +37,7 @@ def get_appearance_options_for_race(race_name: str):
         "eye_colors": [item["color"] for item in race_details.get("eye_colors", [])],
     }
 
-
+# Zwraca listę możliwych miejsc urodzenia dla wybranej rasy.
 def get_birthplaces_for_race(race_name: str):
     game_data = load_data()
     race_data = game_data["races"].get(race_name)
@@ -95,7 +95,7 @@ def get_list_options_for_race(race_name: str, gender: str):
         "birthplace": birthplace_options,
     }
 
-
+# daj nam znaki gwiezdne i cechy szczegolne
 def get_general_options():
     game_data = load_data()
     if not game_data:
@@ -110,7 +110,7 @@ def get_general_options():
         ],
     }
 
-
+# Odpowiada by byl podglad w UI ( odpowiada miedzy innymi za to ze laczy zdolosci clasowe jak i te z profesji)
 def get_combined_data_for_ui(race_name: str, profession_name: str):
     game_data = load_data()
     if not game_data or race_name not in game_data["races"]:
@@ -200,7 +200,7 @@ def get_combined_data_for_ui(race_name: str, profession_name: str):
         "equipment_choices": equipment_choices,
     }
 
-
+# Zbiera wszystkie wybory użytkownika z interfejsu i tworzy finalny słownik danych postaci.
 def finalize_character(user_selections: dict):
     game_data = load_data()
     if not game_data:
