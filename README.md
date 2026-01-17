@@ -1,5 +1,3 @@
-Pewnie! Oto odświeżona i bardziej przejrzysta wersja całej dokumentacji, z ulepszonym formatowaniem i dodanymi zrzutami ekranu dla każdej funkcji.
-
 ***
 
 # Dokumentacja Projektu: Generator Postaci Warhammer
