@@ -5,7 +5,7 @@ def get_race_options():
     game_data = load_data()
     return list(game_data["races"].keys()) if game_data else []
 
-# Zwraca  listę profesji dostępnych dla wybranej rasy
+# Zwraca listę profesji dostępnych dla wybranej rasy
 def get_professions_for_race(race_name: str):
     game_data = load_data()
     if not game_data or race_name not in game_data.get("race_profession_tables", {}):
