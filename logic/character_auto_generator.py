@@ -25,7 +25,7 @@ def roll_2d10():
 def roll_d100():
     return random.randint(1, 100)
 
-
+# Słuzy by odnalesc odpowiedni elementy np jezeli roll bedzie przyjmowal 8 to bedzie szukac elementu dla range rownego 8
 def find_in_range_table(table, roll):
     for entry in table:
         if entry["range"][0] <= roll <= entry["range"][1]:
@@ -44,12 +44,8 @@ def generate_primary_stats(race_data):
 # Oblicza cechy drugorzędne na podstawie cech głównych i danych zaspisanych w database
 def generate_secondary_stats(race_data, primary_stats):
     secondary_stats = race_data["secondary_stats"].copy()
-    secondary_stats["Żyw"] = find_in_range_table(
-        race_data["vitality_table"], roll_d10()
-    )["value"]
-    secondary_stats["PP"] = find_in_range_table(
-        race_data["destination_points_table"], roll_d10()
-    )["value"]
+    secondary_stats["Żyw"] = find_in_range_table(race_data["vitality_table"], roll_d10())["value"]
+    secondary_stats["PP"] = find_in_range_table(race_data["destination_points_table"], roll_d10())["value"]
     secondary_stats["S"] = primary_stats["K"] // 10
     secondary_stats["Wt"] = primary_stats["Odp"] // 10
     return secondary_stats
@@ -57,64 +53,34 @@ def generate_secondary_stats(race_data, primary_stats):
 # Losuje szczegóły wyglądu postaci, takie jak wzrost, waga, kolor oczu i włosów
 def generate_appearance(race_data, gender, general_tables):
     details = race_data["physical_details"]
-    base_height = (
-        details["height"]["male_base"]
-        if gender == "Mężczyzna"
-        else details["height"]["female_base"]
-    )
+    base_height = (details["height"]["male_base"] if gender == "Mężczyzna" else details["height"]["female_base"])
     hair_list = details.get("hair_colors", [{"roll": 1, "color": "Brak danych"}])
     eye_list = details.get("eye_colors", [{"roll": 1, "color": "Brak danych"}])
     return {
         "wzrost": base_height + roll_d10(),
         "waga": find_in_range_table(details["weight_table"], roll_d100())["value"],
-        "kolor_wlosow": next(
-            (item["color"] for item in hair_list if item["roll"] == roll_d10()),
-            hair_list[0]["color"],
-        ),
-        "kolor_oczu": next(
-            (item["color"] for item in eye_list if item["roll"] == roll_d10()),
-            eye_list[0]["color"],
-        ),
-        "znak_szczegolny": find_in_range_table(
-            general_tables["distinguishing_marks"], roll_d100()
-        )["mark"],
+        "kolor_wlosow": next((item["color"] for item in hair_list if item["roll"] == roll_d10()),hair_list[0]["color"],),
+        "kolor_oczu": next((item["color"] for item in eye_list if item["roll"] == roll_d10()),eye_list[0]["color"],),
+        "znak_szczegolny": find_in_range_table(general_tables["distinguishing_marks"], roll_d100())["mark"],
     }
 
-# Losuje szczegóły osobowe postaci, w tym imię, wiek i miejsce urodzenia
+# Losuje szczegóły  postaci, w tym imię, wiek i miejsce urodzenia
 def generate_personal_details(race_data, gender, general_tables):
     gender_key = "male" if gender == "Mężczyzna" else "female"
     return {
-        "imie": find_in_range_table(race_data["names"][gender_key], roll_d100())[
-            "name"
-        ],
+        "imie": find_in_range_table(race_data["names"][gender_key], roll_d100())["name"],
         "miejsce_urodzenia": generate_birthplace(race_data, general_tables),
-        "wiek": find_in_range_table(
-            race_data["personal_details"]["age_table"], roll_d100()
-        )["value"],
-        "liczba_rodzenstwa": find_in_range_table(
-            race_data["personal_details"]["siblings_table"], roll_d10()
-        )["value"],
-        "znak_gwiezdny": find_in_range_table(general_tables["star_signs"], roll_d100())[
-            "sign"
-        ],
+        "wiek": find_in_range_table(race_data["personal_details"]["age_table"], roll_d100())["value"],
+        "liczba_rodzenstwa": find_in_range_table(race_data["personal_details"]["siblings_table"], roll_d10())["value"],
+        "znak_gwiezdny": find_in_range_table(general_tables["star_signs"], roll_d100())["sign"],
     }
 
 # Tworzy losowe miejsce urodzenia dla człowieka, łącząc typ osady z prowincją (funkcja pomocnicza)
 def generate_human_birthplace(human_birthplaces_data):
-    provinces = human_birthplaces_data.get(
-        "provinces", [{"roll": 0, "name": "Nieznana Prowincja"}]
-    )
-    settlements = human_birthplaces_data.get(
-        "settlements", [{"roll": 0, "type": "Nieznana Osada"}]
-    )
-    province = next(
-        (p["name"] for p in provinces if p["roll"] == roll_d10() % 10),
-        provinces[0]["name"],
-    )
-    settlement = next(
-        (s["type"] for s in settlements if s["roll"] == roll_d10() % 10),
-        settlements[0]["type"],
-    )
+    provinces = human_birthplaces_data.get("provinces", [{"roll": 0, "name": "Nieznana Prowincja"}])
+    settlements = human_birthplaces_data.get("settlements", [{"roll": 0, "type": "Nieznana Osada"}])
+    province = next((p["name"] for p in provinces if p["roll"] == roll_d10() % 10),provinces[0]["name"],)
+    settlement = next((s["type"] for s in settlements if s["roll"] == roll_d10() % 10),settlements[0]["type"],)
     return f"{settlement} w prowincji {province}"
 
 # Generuje miejsce urodzenia dla odpowiedniej klasy
@@ -129,8 +95,7 @@ def generate_birthplace(race_data, general_tables):
     return (
         generate_human_birthplace(general_tables["human_birthplaces"])
         if "człowieka" in place
-        else place
-    )
+        else place)
 
 # Sprawdza i zapisuje umiejętności i zdolności dla postaci (wynikajace z classy postaci)
 def get_racial_abilities(race_data):
@@ -193,46 +158,24 @@ def create_character():
     character["profesja"] = profession_data["nazwa"]
     character["schemat_rozwoju"] = profession_data["advances"]
 
-    for stat, values in profession_data["advances"].items():
-        total_advance = sum(values)
-        if stat in cechy_glowne:
-            cechy_glowne[stat] += total_advance
-        elif stat in cechy_drugorzedne:
-            cechy_drugorzedne[stat] += total_advance
-
     character["cechy_glowne"] = cechy_glowne
     character["cechy_drugorzedne"] = cechy_drugorzedne
-    character["wyglad"] = generate_appearance(
-        race_data, character["plec"], game_data["general_tables"]
-    )
-    character["szczegoly_osobiste"] = generate_personal_details(
-        race_data, character["plec"], game_data["general_tables"]
-    )
+    character["wyglad"] = generate_appearance(race_data, character["plec"], game_data["general_tables"])
+    character["szczegoly_osobiste"] = generate_personal_details(race_data, character["plec"], game_data["general_tables"])
 
     racial_abilities = get_racial_abilities(race_data)
     final_skill_ids = racial_abilities["skill_ids"].union(profession_data["skill_ids"])
-    final_talent_ids = racial_abilities["talent_ids"].union(
-        profession_data["talent_ids"]
-    )
+    final_talent_ids = racial_abilities["talent_ids"].union(profession_data["talent_ids"])
 
     skill_map = {s["id"]: s["name"] for s in game_data["skills"]}
     talent_map = {t["id"]: t["name"] for t in game_data["talents"]}
     item_map = {i["id"]: i["name"] for i in game_data["items"]}
 
-    character["umiejetnosci"] = sorted(
-        [skill_map.get(sid) for sid in final_skill_ids if sid in skill_map]
-    )
-    character["zdolnosci"] = sorted(
-        [talent_map.get(tid) for tid in final_talent_ids if tid in talent_map]
-    )
+    character["umiejetnosci"] = sorted([skill_map.get(sid) for sid in final_skill_ids if sid in skill_map])
+    character["zdolnosci"] = sorted([talent_map.get(tid) for tid in final_talent_ids if tid in talent_map])
 
-    equipment_names = sorted(
-        [
-            item_map.get(iid)
-            for iid in profession_data["equipment_ids"]
-            if iid in item_map
-        ]
-    )
+    equipment_names = sorted([item_map.get(iid) for iid in profession_data["equipment_ids"] if iid in item_map])
+
     character["ekwipunek"] = [
         {"name": name, "icon_path": ""} for name in equipment_names
     ]

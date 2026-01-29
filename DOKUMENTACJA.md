@@ -3,7 +3,7 @@
 
 ## 1. Ogólny Opis Projektu
 
-Aplikacja "Generator Postaci Warhammer by Lauer" jest narzędziem desktopowym stworzonym w celu ułatwienia tworzenia i zarządzania postaciami w systemie gry fabularnej Warhammer Fantasy Roleplay (WFRP). Program pozwala na:
+Aplikacja "Generator Postaci Warhammer by Lauer" słuzy zarządzania postaciami w systemie gry fabularnej Warhammer Fantasy Roleplay (WFRP). 
 
 *   **W pełni losowe generowanie postaci:** Jednym kliknięciem tworzy kompletną postać, losując rasę, profesję, statystyki, wygląd i inne szczegóły.
 *   **Manualne tworzenie postaci:** Użytkownik może krok po kroku wybrać wszystkie atrybuty swojej postaci, korzystając z list opartych na danych z gry.
@@ -21,13 +21,13 @@ Aplikacja "Generator Postaci Warhammer by Lauer" jest narzędziem desktopowym st
 *   **Czcionka:** MedievalSharp 
 
 ## 3. Instrukcja Uruchomienia
+1. Pobierz kod z githuba
 
-1.  Upewnij się, że masz zainstalowany Python 3 oraz bibliotekę PyQt6.
+2.  Upewnij się, że masz zainstalowany Python 3 oraz bibliotekę PyQt6.
     ```bash
     pip install PyQt6
     ```
-2.  Umieść wszystkie pliki projektu w jednym folderze, zachowując strukturę katalogów (`ui/`, `logic/`, `database/`, `fonts/`).
-3.  Uruchom aplikację, wykonując polecenie w terminalu w głównym folderze projektu:
+3.  Uruchom aplikację.
     ```bash
     python main.py
     ```

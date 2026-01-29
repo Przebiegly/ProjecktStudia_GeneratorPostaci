@@ -1,7 +1,6 @@
 from .character_auto_generator import load_data
 
-# Słownik definiujący kategorie sklepu oraz słowa kluczowe używane
-# do automatycznego przypisywania przedmiotów do odpowiednich grup.
+# słuy do kategori sklepu
 CATEGORIES = {
     "Broń Biała": [
         "broń jednoręczna",
