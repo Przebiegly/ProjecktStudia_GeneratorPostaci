@@ -20,12 +20,7 @@ class AddGoldAndXpWindow(QMainWindow):
         self.setWindowTitle("Zarządzaj Zasobami")
 
         self.setWindowModality(Qt.WindowModality.ApplicationModal)
-        self.setWindowFlags(
-            Qt.WindowType.WindowStaysOnTopHint
-            | Qt.WindowType.CustomizeWindowHint
-            | Qt.WindowType.WindowTitleHint
-            | Qt.WindowType.WindowCloseButtonHint
-        )
+
 
         self.setStyleSheet(MAIN_WINDOW_STYLE)
         self._setup_ui()
@@ -81,6 +76,7 @@ class AddGoldAndXpWindow(QMainWindow):
         self.setCentralWidget(main_widget)
         self.setFixedSize(self.sizeHint())
 
+    #metoda odpowiada po tym jak klikniesz przycisk (obojetnie jaki) sprawdza obiekt postaci i jaki zasob ma dodac xp czy golda, dodaje i odswieza okna
     def _add_resource(self, value: int, resource_type: str):
         character = self.connector.current_character
         if not character:
@@ -93,6 +89,7 @@ class AddGoldAndXpWindow(QMainWindow):
 
         self._update_display()
         self.connector.update_character_data()
+
 
     def _update_display(self):
         character = self.connector.current_character
