@@ -285,7 +285,6 @@ class GenerateCharacterWindow(QWidget):
                 elif stat in display_sec_stats:
                     display_sec_stats[stat] += value
 
-        # ### POPRAWKA ###: Obsługa niespójności nazwy "Po" vs "PO"
         if "Po" in display_sec_stats:
             display_sec_stats["PO"] = display_sec_stats.pop("Po")
 
