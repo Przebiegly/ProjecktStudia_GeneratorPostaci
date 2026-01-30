@@ -106,7 +106,7 @@ CATEGORIES = {
 }
 
 # Przetwarza listę wszystkich przedmiotów z bazy danych, kategoryzuje je na podstawie zdefiniowanych słów kluczowych
-def get_categorized_items() -> dict:
+def get_categorized_items():
     game_data = load_data()
     if not game_data or "items" not in game_data:
         return {}
@@ -145,7 +145,7 @@ def get_categorized_items() -> dict:
     return final_categories
 
 # Funkcja realizująca zakup przedmiotu: sprawdza, czy postać ma wystarczająco złota, odejmuje koszt i dodaje przedmiot do ekwipunku postaci.
-def buy_item(character: "Character", item_name: str, item_cost: int) -> bool:
+def buy_item(character: "Character", item_name: str, item_cost: int):
     if not character or float(character.gold) < item_cost:
         return False
 

@@ -16,9 +16,7 @@ def ensure_save_directory():
 # Zapisuje dane postaci do pliku JSON. Dba również o skopiowanie portretu  oraz ikon przedmiotów do folderu z zapisami, nadając im unikalne nazwy.
 def save_character(character_data: dict, filename: str) -> bool:
     ensure_save_directory()
-    safe_filename = "".join(
-        c for c in filename if c.isalnum() or c in (" ", "_", "-")
-    ).rstrip()
+    safe_filename = "".join(c for c in filename if c.isalnum() or c in (" ", "_", "-")).rstrip()
     if not safe_filename:
         print("Błąd: Nazwa zapisu jest nieprawidłowa.")
         return False

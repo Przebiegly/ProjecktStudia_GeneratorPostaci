@@ -1,6 +1,6 @@
 
 
-def get_profession_details(profession_name: str, game_data: dict) -> dict:
+def get_profession_details(profession_name: str, game_data: dict):
     if profession_name in game_data.get("base_class", {}):
         return game_data["base_class"][profession_name]
     if profession_name in game_data.get("advanced_class", {}):
@@ -8,7 +8,7 @@ def get_profession_details(profession_name: str, game_data: dict) -> dict:
     return {}
 
 # Tłumaczy identyfikatory (ID) z danych profesji na pełne, czytelne nazwy umiejętności, zdolności i ekwipunku ( sa one tez w .json tylko w osobnym miejscu).
-def get_full_profession_data(profession_name: str, game_data: dict) -> dict:
+def get_full_profession_data(profession_name: str, game_data: dict):
 
     skill_map = {s["id"]: s["name"] for s in game_data["skills"]}
     talent_map = {t["id"]: t["name"] for t in game_data["talents"]}
@@ -54,7 +54,7 @@ def get_full_profession_data(profession_name: str, game_data: dict) -> dict:
 
 # Porównuje posiadane przez postać atrybuty z nową profesją, aby wyliczyć tylko te, które postać zyska.
 def get_profession_preview_data(
-    character: "Character", new_profession_name: str, game_data: dict) -> dict:
+    character: "Character", new_profession_name: str, game_data: dict):
 
     if not character or not new_profession_name:
         return {}
@@ -84,7 +84,7 @@ def get_profession_preview_data(
     }
 
 # Obsługuje logikę wydawania 100 PD na wykupienie jednego rozwinięcia cechy ze schematu profesji.
-def purchase_advance(character: "Character", stat_key: str) -> bool:
+def purchase_advance(character: "Character", stat_key: str):
     if not character or character.xp < 100:
         return False
 
@@ -111,7 +111,7 @@ def purchase_advance(character: "Character", stat_key: str) -> bool:
     return True
 
 # Sprawdza, czy postać wykupiła wszystkie dostępne rozwinięcia (jest to warunkiem zmiany profesji.)
-def are_all_advances_purchased(character: "Character") -> bool:
+def are_all_advances_purchased(character: "Character"):
     if not character:
         return False
     for stat, values in character.schemat_rozwoju.items():
@@ -121,7 +121,7 @@ def are_all_advances_purchased(character: "Character") -> bool:
 
 # Finalizuje proces zmiany profesji postaci, aktualizując jej atrybuty, odejmując PD i resetując schemat rozwoju.
 def change_character_profession(
-    character: "Character", new_profession: str, game_data: dict, choices: dict) -> bool:
+    character: "Character", new_profession: str, game_data: dict, choices: dict):
 
     if not character or not are_all_advances_purchased(character) or character.xp < 500:
         return False

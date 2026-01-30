@@ -1,7 +1,7 @@
 from .character_auto_generator import load_data
 
 # Pobiera z bazy danych pełną, posortowaną listę wszystkich dostępnych w grze umiejętności i zdolności.
-def get_all_learnable_abilities(game_data: dict) -> dict:
+def get_all_learnable_abilities(game_data: dict):
     if not game_data:
         return {"skills": [], "talents": []}
 
@@ -13,7 +13,7 @@ def get_all_learnable_abilities(game_data: dict) -> dict:
 
 # Obsługuje proces nauki nowej umiejętności lub zdolności przez postać
 # Sprawdza czy ma wystarczajaco pd oraz sprawdza czy postac nie psiada juz umiejetnosci
-def learn_ability(character: "Character", ability_name: str, ability_type: str) -> bool:
+def learn_ability(character: "Character", ability_name: str, ability_type: str):
     COST = 100
     if not character or character.xp < COST:
         return False
