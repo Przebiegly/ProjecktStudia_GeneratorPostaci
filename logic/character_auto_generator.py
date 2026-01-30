@@ -3,7 +3,7 @@ import os
 import random
 import sys
 
-#To jest potrzebne by odpowiedno zwracal sciezke jak generuje gotowy program z .exe
+#To jest potrzebne by odpowiedno zwracal sciezke jak generuje gotowy program z rozerzeniem .exe
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS

@@ -32,7 +32,7 @@ class Character:
         self.portrait_ext = character_data.get('portrait_ext', '')
 
 
-    def to_dict(self) -> dict:
+    def to_dict(self):
         #Konwertuje obiekt postaci z powrotem na słownik w celu zapisu.
         return {
             'rasa': self.rasa,
