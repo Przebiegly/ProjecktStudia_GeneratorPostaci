@@ -80,15 +80,11 @@ class LearnSkillTalentWindow(QMainWindow):
 
         self.xp_label.setText(f"Dostępne Punkty Doświadczenia: <b>{character.xp}</b>")
         self.skills_list.clear()
-        learnable_skills = sorted(
-            list(set(self.all_abilities["skills"]) - set(character.umiejetnosci))
-        )
+        learnable_skills = sorted(list(set(self.all_abilities["skills"]) - set(character.umiejetnosci)))
         self.skills_list.addItems(learnable_skills)
 
         self.talents_list.clear()
-        learnable_talents = sorted(
-            list(set(self.all_abilities["talents"]) - set(character.zdolnosci))
-        )
+        learnable_talents = sorted(list(set(self.all_abilities["talents"]) - set(character.zdolnosci)))
         self.talents_list.addItems(learnable_talents)
 
         self._update_buttons_state()

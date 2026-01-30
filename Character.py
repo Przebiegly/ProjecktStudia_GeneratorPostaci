@@ -31,9 +31,8 @@ class Character:
         self.portrait_path = character_data.get('portrait_path', '')
         self.portrait_ext = character_data.get('portrait_ext', '')
 
-
+    # Konwertuje obiekt postaci z powrotem na słownik w celu zapisu.
     def to_dict(self):
-        #Konwertuje obiekt postaci z powrotem na słownik w celu zapisu.
         return {
             'rasa': self.rasa,
             'plec': self.plec,

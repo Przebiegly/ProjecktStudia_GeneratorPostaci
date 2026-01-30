@@ -144,6 +144,7 @@ class BuyItemsWindow(QMainWindow):
 
         self.buy_button.setEnabled(character.gold >= item_cost)
 
+    #
     def _buy_selected_item(self):
         character = self.connector.current_character
         selected_row = self.item_table.currentRow()
