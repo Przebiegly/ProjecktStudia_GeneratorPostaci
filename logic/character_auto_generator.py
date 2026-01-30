@@ -1,16 +1,28 @@
 import json
+import os
 import random
+import sys
+
+#To jest potrzebne by odpowiedno zwracal sciezke jak generuje gotowy program z .exe
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 #Wczytuje i zwraca dane z pliku JSON
 def load_data(filename="database/database.json"):
+    correct_path = resource_path(filename)
     try:
-        with open(filename, "r", encoding="utf-8") as f:
+        with open(correct_path, "r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"BŁĄD: Plik '{filename}' nie został znaleziony.")
+        print(f"BŁĄD: Plik '{correct_path}' nie został znaleziony.")
         return None
     except json.JSONDecodeError as e:
-        print(f"BŁĄD: Plik '{filename}' zawiera błąd w formacie JSON: {e}")
+        print(f"BŁĄD: Plik '{correct_path}' zawiera błąd w formacie JSON: {e}")
         return None
 
 #Symuluje rzut kosicią (zakres kosci od 1 do 10)

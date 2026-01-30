@@ -22,9 +22,7 @@ def get_names_for_race_and_gender(race_name: str, gender: str):
     if not race_data:
         return []
     gender_key = "male" if gender == "Mężczyzna" else "female"
-    return sorted(
-        list({entry["name"] for entry in race_data["names"].get(gender_key, [])})
-    )
+    return sorted(list({entry["name"] for entry in race_data["names"].get(gender_key, [])}))
 
 # Zwraca dostępne kolory włosów i oczu dla wybranej rasy.
 def get_appearance_options_for_race(race_name: str):
@@ -58,31 +56,13 @@ def get_list_options_for_race(race_name: str, gender: str):
     if not game_data or race_name not in game_data["races"]:
         return {}
     race_data = game_data["races"][race_name]
-    age_values = sorted(
-        list(
-            {str(item["value"]) for item in race_data["personal_details"]["age_table"]}
-        )
-    )
-    height_base = race_data["physical_details"]["height"].get(
-        "male_base" if gender == "Mężczyzna" else "female_base", 150
-    )
+    age_values = sorted(list({str(item["value"]) for item in race_data["personal_details"]["age_table"]}))
+    height_base = race_data["physical_details"]["height"].get("male_base" if gender == "Mężczyzna" else "female_base", 150)
+
     height_values = [str(height_base + i) for i in range(1, 21)]
-    weight_values = sorted(
-        list(
-            {
-                str(item["value"])
-                for item in race_data["physical_details"]["weight_table"]
-            }
-        )
-    )
-    sibling_values = sorted(
-        list(
-            {
-                str(item["value"])
-                for item in race_data["personal_details"]["siblings_table"]
-            }
-        )
-    )
+    weight_values = sorted(list({str(item["value"])for item in race_data["physical_details"]["weight_table"]}))
+    sibling_values = sorted(list({str(item["value"])for item in race_data["personal_details"]["siblings_table"]}))
+
     appearance_options = get_appearance_options_for_race(race_name)
     birthplace_options = get_birthplaces_for_race(race_name)
     return {
@@ -95,7 +75,7 @@ def get_list_options_for_race(race_name: str, gender: str):
         "birthplace": birthplace_options,
     }
 
-# daj nam znaki gwiezdne i cechy szczegolne
+#znaki gwiezdne i cechy szczegolne
 def get_general_options():
     game_data = load_data()
     if not game_data:
@@ -226,10 +206,7 @@ def finalize_character(user_selections: dict):
     profession_details = game_data["base_class"].get(profession_name, {})
     advances_schema = profession_details.get("advances", {})
 
-    final_equipment = sorted(
-        [{"name": name, "icon_path": ""} for name in final_equipment_names],
-        key=lambda x: x["name"],
-    )
+    final_equipment = sorted([{"name": name, "icon_path": ""} for name in final_equipment_names],key=lambda x: x["name"],)
 
     character_data = {
         "rasa": race_name,
